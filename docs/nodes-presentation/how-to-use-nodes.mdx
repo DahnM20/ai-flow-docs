@@ -1,0 +1,59 @@
+---
+sidebar_position: 1
+---
+
+# Overview
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      color: '#fff',
+      padding: '3px',
+      cursor: 'pointer',
+      textAlign: 'center'
+    }}
+    >
+    {children}
+  </span>
+);
+
+
+In AI-Flow, the node concept plays a pivotal role in defining and orchestrating data flows. These nodes enable users to structure and tailor operations, whether it's to process text, extract data from a URL, retrieve YouTube subtitles, query GPT, or even generate images.
+
+## Basic Node Structure
+
+Each node has "handles," which are connection points for data. 
+
+- <Highlight color="#72c8fa">Blue Handle</Highlight>: Represents the <b>input</b> of the node. Through this handle data is injected into the node for processing.
+- <Highlight color="rgb(224, 166, 79)">Orange Handle</Highlight>: Signifies the <b>output</b> of the node. Once data is processed within the node, it's emitted from this handle.
+
+![Node basic structure](/img/page-images/how-to-use-nodes/1.png)
+
+## Placement 
+
+To add a node to your flow:
+
+1. **Select** the desired node from the left sidebar.
+2. **Drag & Drop** the node into the workspace to place it at your desired location.
+
+## Interaction
+
+Once your nodes are in place, you can establish links (edges) between them:
+
+1. **Grab** a handle (input or output) from a node.
+2. **Draw** a line towards the corresponding handle (input or output) of another node to establish a connection.
+
+
+![Draw an edge between nodes](/img/page-images/how-to-use-nodes/2.png)
+
+By connecting nodes, you define the path the data will take, allowing it to flow and be processed by consecutive nodes.
+
+## Move handles
+
+You can change the position of a handle by hovering over it, then selecting the new position in the box that appears at the top.
+
+![Move handles](/img/page-images/how-to-use-nodes/3.png)
+___
+
+Mastering the node concept and their interconnection offers you powerful flexibility in constructing and customizing complex data flows. Feel free to experiment, combine, and connect different node types to execute sophisticated operations and meet your specific needs.
