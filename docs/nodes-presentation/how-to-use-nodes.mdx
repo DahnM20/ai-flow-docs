@@ -21,7 +21,9 @@ export const Highlight = ({children, color}) => (
 
 In AI-Flow, the node concept plays a pivotal role in defining and orchestrating data flows. These nodes enable users to structure and tailor operations, whether it's to process text, extract data from a URL, retrieve YouTube subtitles, query GPT, or even generate images.
 
-## Basic Node Structure
+## Basic actions
+
+### Node Structure
 
 Each node has "handles," which are connection points for data. 
 
@@ -30,14 +32,14 @@ Each node has "handles," which are connection points for data.
 
 ![Node basic structure](/img/page-images/how-to-use-nodes/1.png)
 
-## Placement 
+### Placement 
 
 To add a node to your flow:
 
 1. **Select** the desired node from the left sidebar.
 2. **Drag & Drop** the node into the workspace to place it at your desired location.
 
-## Interaction
+### Interaction
 
 Once your nodes are in place, you can establish links (edges) between them:
 
@@ -49,11 +51,75 @@ Once your nodes are in place, you can establish links (edges) between them:
 
 By connecting nodes, you define the path the data will take, allowing it to flow and be processed by consecutive nodes.
 
-## Move handles
+### Move handles
 
 You can change the position of a handle by hovering over it, then selecting the new position in the box that appears at the top.
 
 ![Move handles](/img/page-images/how-to-use-nodes/3.png)
+
+### Delete a specific node or edge
+
+You can delete a node/an edge by clicking on it, then pressing the Backspace key. 
+
+
 ___
 
 Mastering the node concept and their interconnection offers you powerful flexibility in constructing and customizing complex data flows. Feel free to experiment, combine, and connect different node types to execute sophisticated operations and meet your specific needs.
+
+
+## Run the flow
+
+### Run all nodes
+
+You can run all the nodes by clicking on the "RUN ALL" button. 
+
+
+![Run All](/img/page-images/how-to-use-nodes/run-all.png)
+
+:::danger Note
+By doing this, all previous output will be overwritten by the most recent ones.
+:::
+
+### Run a specific node
+
+Each node has a small "Play" icon at the top right. You can run a specific node by clicking this icon.
+
+This will only overwrite the output of that node.
+
+![Run node](/img/page-images/how-to-use-nodes/1.png)
+
+:::tip Note
+
+If your node is connected to a node that has not been launched, the application will run the previous node before running the one you selected.
+
+:::
+
+
+## Other tools
+
+
+The right sidebar on the application can be expanded. It provide few functionnalities to manage you with your flow. 
+
+There you can see your flow as a raw JSON file. 
+
+This file can be downloaded, if you want to save your flow and later on uploaded.
+
+:::tip Note
+
+By default your flow is saved locally on your browser. As long as you don't clear the cache, you'll get access to your flow.
+Saving your flow as a JSON file helps ensure your flow is backed up securely.
+
+:::
+
+![Right sidebar](/img/page-images/how-to-use-nodes/right-sidebar.png)
+
+### Clear all output
+
+To clear all output, you can expand the right sidebar and click on "Delete Output".
+
+![Delete output](/img/page-images/how-to-use-nodes/delete-output.png)
+
+
+### Delete all 
+
+The delete all button will remove all the nodes on your current flow.
