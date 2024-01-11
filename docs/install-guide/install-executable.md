@@ -17,6 +17,8 @@
      1. Right-click on `server.exe`.
      2. Select 'Run as administrator'.
 
+   - You'll need to update the REPLICATE_API_KEY in the `.env` file to use the Replicate Node.  This API key is used exclusively for fetching model data.
+
 2. **Accessing the Server**:
    - With the server running, open your preferred web browser and navigate to:
      ```

@@ -12,6 +12,8 @@
 2. **Modify Configuration (if necessary)**:
    - The `docker-compose.yml` file contains various settings, including the ports the services will run on. Review and update if needed. Particularly, you might want to adjust the `PORTS` configuration depending on your needs.
 
+   - You'll need to update the REPLICATE_API_KEY in the docker-compose file to use the Replicate Node. This API key is used exclusively for fetching model data.
+
 ### Running the Application
 1. **Start the Services**:
    - To start the application in the foreground (logs will display in the terminal):
