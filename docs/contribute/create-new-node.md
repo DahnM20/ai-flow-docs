@@ -4,11 +4,11 @@ This section of the documentation describes how to create new nodes in the appli
 
 ## Quick Start Guide
 
-Follow these steps to create a new node:
+Follow these steps to create a new node and his associated processor:
 
 ### 1. Set Up the Node File
 
-First, navigate to the appropriate directory for node scripts:
+First, navigate to the appropriate directory :
 
 ```plaintext
 packages/backend/app/processors/components/extension
@@ -24,20 +24,20 @@ In this directory, create a new Python file using the naming format:
 
 Your new node must extend one of two base classes, depending on its dependencies on user parameters:
 
-- **SimpleExtensionProcessor**: Use this if the node does not depend on user-specific parameters, such as an API key.
-- **APIContextExtensionProcessor**: Use this if the node requires context about the user, such as user-specific settings or keys.
+- **BasicExtensionProcessor**: Use this if the node does not depend on user-specific parameters, such as an API key.
+- **UserContextExtensionProcessor**: Use this if the node requires context about the user, such as user-specific settings or keys.
 
 ### 3. Implement Your Node
 
 Below are the template structures for each type of processor. Replace `YourProcessor` with the appropriate class name for your node, and ensure `processor_type` is a unique identifier for your node type.
 
-#### Using SimpleExtensionProcessor
+#### Using BasicExtensionProcessor
 
 ```python
 from ...context.processor_context import ProcessorContext
-from .extension_base_processor import APIContextExtensionProcessor
+from .extension_base_processor import UserContextExtensionProcessor
 
-class YourProcessor(SimpleExtensionProcessor):
+class YourProcessor(BasicExtensionProcessor):
     processor_type = "your-processor"  # Unique identifier for this processor type
 
     def __init__(self, config):
@@ -50,13 +50,13 @@ class YourProcessor(SimpleExtensionProcessor):
         # Implement your processing logic here
 ```
 
-#### Using APIContextExtensionProcessor
+#### Using UserContextExtensionProcessor
 
 ```python
 from ...context.processor_context import ProcessorContext
-from .extension_base_processor import APIContextExtensionProcessor
+from .extension_base_processor import UserContextExtensionProcessor
 
-class YourProcessor(APIContextExtensionProcessor):
+class YourProcessor(UserContextExtensionProcessor):
     processor_type = "your-processor"  # Unique identifier for this processor type
 
     def __init__(self, config, context: ProcessorContext):
@@ -75,6 +75,8 @@ class YourProcessor(APIContextExtensionProcessor):
 ## Define Node Structure
 
 Each processor must define a schema to outline the fields it possesses and the outputs it returns.
+
+The `get_schema()` method define what the node will look like in the UI.
 
 To define the schema, utilize the classes located in the file `packages/backend/app/processors/components/model.py`.
 
@@ -158,14 +160,14 @@ def process(self):
 
 To determine the exact key name to retrieve a parameter, refer to the `packages/backend/config.yaml`.
 
-Note that processor context is initialized only when you extend `APIContextExtensionProcessor`.
+Note that processor context is initialized only when you extend `UserContextExtensionProcessor`.
 
 ## Implement Node Behavior
 
-Now equipped with input retrieval and user parameter techniques, you can implement your node's behavior. Use a return statement to output the value that will be displayed in the app.
+Now equipped with input retrieval and user parameters, you can implement your node's behavior. Use a return statement to output the value that will be displayed in the app.
 
 :::tip Note
-To return an image or video, provide a URL and set your output type to `imageUrl` or `videoUrl` in your `NodeConfig`. If you lack a URL, you can utilize `self.get_storage()` to save your file on S3. For example:
+To return an image or video, provide a URL and set your output type to `imageUrl` or `videoUrl` in your `NodeConfig`. If you lack a URL, you can utilize `self.get_storage()` to save your file on S3 (if you have configured it). For example:
 
 ```python
 storage = self.get_storage()
@@ -176,67 +178,49 @@ url = storage.save("your-filename.png", data)
 
 ## Optional: Adding New User Parameters to the App
 
-To introduce new user parameters into the app, update the `packages/backend/config.yaml` file as follows:
+Please refer to the section [Adding New Parameters](add-new-parameters)
 
-```yaml
-core:
-  ################################
-  ## The core params of the app ##
-  ################################
+## Final Touch: Adding Translation Variables
 
-my_extension: # Your new section
-  my_extension_api_key:
-    tag: "extension"
-    description: "Description of what this parameter controls."
-
-  my_extension_token:
-    tag: "extension"
-    description: "Description of what this parameter controls."
-```
-
-After updating the configuration and restarting the server, these new parameters will be visible in the UI's configuration menu.
-
-## Cleanup: Adding Translation Variables
-
-When creating your schema, many text-related fields such as node names, field placeholders, and help messages are included. To ensure these texts are translatable, you must use translation variables (langvars) in these fields.
+When creating your schema, it's common to include text-related fields such as node names, field placeholders, and help messages. To make these texts translatable, you should use translation variables in these fields.
 
 ```python
 def get_schema(self):
     urlInput = Field(
         name="url",
-        label="url",
+        label="URL",
         type="textfield",
         required=True,
-        placeholder="URLPlaceholder",  # This is a langvar
+        placeholder="URLPlaceholder",  // Use a translation variable here
         hasHandle=True,
     )
 
     fields = [urlInput]
 
     config = NodeConfig(
-        nodeName="DocumentToText",  # This is a langvar
+        nodeName="DocumentToText",  // Use a translation variable here
         processorType=self.processor_type,
         icon="FaFile",
         fields=fields,
         outputType="text",
         section="tools",
-        helpMessage="documentToTextHelp",  # This is a langvar
+        helpMessage="documentToTextHelp",  // Use a translation variable here
         showHandlesNames=True,
     )
 
     return config
 ```
 
-Translation variables need to be added in the localization file located at `packages/ui/public/locales/en/flow.json`. Add them as follows:
+Add the translation variables to the localization file located at `packages/ui/public/locales/en/flow.json` as shown below:
 
 ```json
 {
-  "URLPlaceholder": "Input a URL",
-  "DocumentToText": "Document-to-Text",
-  "documentToTextHelp": "Convert .pdf .txt .csv .json .html file to simple text"
+  "URLPlaceholder": "Enter a URL",
+  "DocumentToText": "Document to Text",
+  "documentToTextHelp": "Converts .pdf, .txt, .csv, .json, and .html files to plain text"
 }
 ```
 
-With these translation variables set up, your node is ready for international use.
+With these translation variables in place, your node is ready for international use.
 
 Feel free to submit a pull request to the [repository](https://github.com/DahnM20/ai-flow) to share your new node with others!
