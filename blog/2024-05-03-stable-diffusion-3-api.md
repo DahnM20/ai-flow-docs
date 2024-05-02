@@ -35,4 +35,4 @@ Expect more enhancements and support from StabilityAI in the coming weeks as we 
 
 **Get Started**
 
-Dive into a world of enhanced image creation with Stable Diffusion 3 on AI-FLOW. Experience the power of advanced AI-driven image generation. [Try it now!](app.ai-flow.net)
+Dive into a world of enhanced image creation with Stable Diffusion 3 on AI-FLOW. Experience the power of advanced AI-driven image generation. [Try it now!](https://app.ai-flow.net)

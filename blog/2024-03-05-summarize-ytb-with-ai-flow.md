@@ -23,4 +23,4 @@ For a more robust solution, utilize the `turian/insanely-fast-whisper-with-video
 
 Enhance your productivity and content creation workflow with AI-FLOW by efficiently summarizing YouTube videos or querying their content. Start streamlining your video content analysis today.
 
-Try it out [here](app.ai-flow.net).
+Try it out [here](https://app.ai-flow.net).

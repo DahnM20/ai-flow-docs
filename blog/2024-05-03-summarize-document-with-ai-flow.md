@@ -27,4 +27,4 @@ For ease of use, this basic setup has been included in the Template menu of AI-F
 
 ### Conclusion
 
-By following this guide, you can efficiently summarize documents or pose questions to the content using AI-FLOW. Enhance your productivity by integrating these features into your daily workflow. Try it [here](app.ai-flow.net).
+By following this guide, you can efficiently summarize documents or pose questions to the content using AI-FLOW. Enhance your productivity by integrating these features into your daily workflow. Try it [here](https://app.ai-flow.net).
