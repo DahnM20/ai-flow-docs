@@ -181,6 +181,16 @@ url = storage.save("your-filename.png", data)
 
 Please refer to the section [Adding New Parameters](add-new-parameters)
 
+## Optional: Adding new library
+
+This project uses poetry as dependency management.
+
+If you need to add a new dependency, you should navigate to `ai-flow/packages/backend` directory in the terminal and use the `poetry add` command.
+
+For example, if you want to include a library for making HTTP requests, you might add requests like this:
+
+`poetry add requests`
+
 ## Final Touch: Adding Translation Variables
 
 When creating your schema, it's common to include text-related fields such as node names, field placeholders, and help messages. To make these texts translatable, you should use translation variables in these fields.
