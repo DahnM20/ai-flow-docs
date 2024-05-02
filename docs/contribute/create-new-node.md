@@ -25,7 +25,7 @@ In this directory, create a new Python file using the naming format:
 Your new node must extend one of two base classes, depending on its dependencies on user parameters:
 
 - **BasicExtensionProcessor**: Use this if the node does not depend on user-specific parameters, such as an API key.
-- **UserContextExtensionProcessor**: Use this if the node requires context about the user, such as user-specific settings or keys.
+- **ContextAwareExtensionProcessor**: Use this if the node requires context about the user, such as user-specific settings or keys.
 
 ### 3. Implement Your Node
 
@@ -35,7 +35,7 @@ Below are the template structures for each type of processor. Replace `YourProce
 
 ```python
 from ...context.processor_context import ProcessorContext
-from .extension_base_processor import UserContextExtensionProcessor
+from .extension_processor import BasicExtensionProcessor
 
 class YourProcessor(BasicExtensionProcessor):
     processor_type = "your-processor"  # Unique identifier for this processor type
@@ -43,26 +43,26 @@ class YourProcessor(BasicExtensionProcessor):
     def __init__(self, config):
         super().__init__(config)
 
-    def get_schema(self):
+    def get_node_config(self):
         # Define the structure of your node here
 
     def process(self):
         # Implement your processing logic here
 ```
 
-#### Using UserContextExtensionProcessor
+#### Using ContextAwareExtensionProcessor
 
 ```python
 from ...context.processor_context import ProcessorContext
-from .extension_base_processor import UserContextExtensionProcessor
+from .extension_processor import ContextAwareExtensionProcessor
 
-class YourProcessor(UserContextExtensionProcessor):
+class YourProcessor(ContextAwareExtensionProcessor):
     processor_type = "your-processor"  # Unique identifier for this processor type
 
     def __init__(self, config, context: ProcessorContext):
         super().__init__(config, context)
 
-    def get_schema(self):
+    def get_node_config(self):
         # Define the structure of your node here
 
     def process(self):
@@ -76,39 +76,39 @@ class YourProcessor(UserContextExtensionProcessor):
 
 Each processor must define a schema to outline the fields it possesses and the outputs it returns.
 
-The `get_schema()` method define what the node will look like in the UI.
+The `get_node_config()` method define what the node will look like in the UI.
 
-To define the schema, utilize the classes located in the file `packages/backend/app/processors/components/model.py`.
+To define the node configuration, utilize the builders located in the file `packages/backend/app/processors/components/node_config_builder.py`.
 
 **Important**: This file is generated automatically; please do not modify it.
 
 Here is an example of a basic node with a single text field:
 
 ```python
-def get_schema(self):
-    urlInput = Field(
-        name="url",
-        label="url",  # Labels are required for display handles
-        type="textfield",
-        required=True,
-        placeholder="URLPlaceholder",
-        hasHandle=True,
-    )
+def get_node_config(self) -> NodeConfig:
+        urlField = (
+            FieldBuilder()
+            .set_name("document_url")
+            .set_label("document_url")
+            .set_type("textfield")
+            .set_required(True)
+            .set_placeholder("URLPlaceholder")
+            .set_has_handle(True)
+            .build()
+        )
 
-    fields = [urlInput]
-
-    config = NodeConfig(
-        nodeName="DocumentToText",
-        processorType=self.processor_type,
-        icon="FaFile",  # Icons are documented in...
-        fields=fields,
-        outputType="text",
-        section="tools",
-        helpMessage="documentToTextHelp",  # Message displayed on hover in the UI
-        showHandlesNames=True,
-    )
-
-    return config
+        return (
+            NodeConfigBuilder()
+            .set_node_name("DocumentToText")
+            .set_processor_type(self.processor_type)
+            .set_icon("FaFile")
+            .set_section("tools")
+            .set_help_message("documentToTextHelp")
+            .set_show_handles(True)
+            .set_output_type("text")
+            .add_field(urlField)
+            .build()
+        )
 ```
 
 Additional field types such as select, sliders, switch, textarea, textfield, and options can be added. Consult the `packages/backend/app/processors/components/model.py` for detailed information.
@@ -116,7 +116,8 @@ Additional field types such as select, sliders, switch, textarea, textfield, and
 For practical examples of existing nodes, refer to:
 
 - `packages/backend/app/processors/components/extension/document_to_text_processor.py`
-- `packages/backend/app/processors/components/extension/openai_text_to_speech_processor.py`
+- `packages/backend/app/processors/components/extension/stable_diffusion_three_processor.py`
+- `packages/backend/app/processors/components/extension/openai_text_to_speech_processor.py` (This one is using objects directly and not the builders)
 
 :::tip Note
 Nodes outside the "extension" folder are constructed differently and should not be used as references for this tutorial.
@@ -124,7 +125,7 @@ Nodes outside the "extension" folder are constructed differently and should not 
 
 ## Retrieve Inputs
 
-After defining `get_schema()`, your node will appear in the web UI once you restart your server.
+After defining `get_node_config()`, your node will appear in the web UI once you restart your server.
 
 The primary method for processing node inputs is:
 
@@ -160,7 +161,7 @@ def process(self):
 
 To determine the exact key name to retrieve a parameter, refer to the `packages/backend/config.yaml`.
 
-Note that processor context is initialized only when you extend `UserContextExtensionProcessor`.
+Note that processor context is initialized only when you extend `ContextAwareExtensionProcessor`.
 
 ## Implement Node Behavior
 
@@ -185,30 +186,30 @@ Please refer to the section [Adding New Parameters](add-new-parameters)
 When creating your schema, it's common to include text-related fields such as node names, field placeholders, and help messages. To make these texts translatable, you should use translation variables in these fields.
 
 ```python
-def get_schema(self):
-    urlInput = Field(
-        name="url",
-        label="URL",
-        type="textfield",
-        required=True,
-        placeholder="URLPlaceholder",  // Use a translation variable here
-        hasHandle=True,
-    )
+    def get_node_config(self) -> NodeConfig:
+        urlField = (
+            FieldBuilder()
+            .set_name("document_url")
+            .set_label("document_url")
+            .set_type("textfield")
+            .set_required(True)
+            .set_placeholder("URLPlaceholder") // Translation variable here
+            .set_has_handle(True)
+            .build()
+        )
 
-    fields = [urlInput]
-
-    config = NodeConfig(
-        nodeName="DocumentToText",  // Use a translation variable here
-        processorType=self.processor_type,
-        icon="FaFile",
-        fields=fields,
-        outputType="text",
-        section="tools",
-        helpMessage="documentToTextHelp",  // Use a translation variable here
-        showHandlesNames=True,
-    )
-
-    return config
+        return (
+            NodeConfigBuilder()
+            .set_node_name("DocumentToText") // Translation variable here
+            .set_processor_type(self.processor_type)
+            .set_icon("FaFile")
+            .set_section("tools")
+            .set_help_message("documentToTextHelp")  // Translation variable here
+            .set_show_handles(True)
+            .set_output_type("text")
+            .add_field(urlField)
+            .build()
+        )
 ```
 
 Add the translation variables to the localization file located at `packages/ui/public/locales/en/flow.json` as shown below:
