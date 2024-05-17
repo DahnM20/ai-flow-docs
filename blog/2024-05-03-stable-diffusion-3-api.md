@@ -7,8 +7,8 @@ tags: [AI-FLOW, Image, Stable Diffusion, Image Generation, Image Processing]
 
 <head>
   <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:title" content="Stable Diffusion 3 now available in AI-FLOW" /> <!-- 30-60 char  -->
-  <meta name="twitter:description" content="AI-FLOW has now integrated Stable Diffusion 3, a significant upgrade in our image generation toolkit." /> <!-- 55-200 char  -->
+  <meta name="twitter:title" content="Stable Diffusion 3 now available in AI-FLOW" /> 
+  <meta name="twitter:description" content="AI-FLOW has now integrated Stable Diffusion 3, a significant upgrade in our image generation toolkit." />
   <meta name="twitter:creator" content="@AIFlowApp"/>
   <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-card-images/blog-sd3.png"/>
   <meta name="twitter:image:alt" content="AI-FLOW has now integrated Stable Diffusion 3, a significant upgrade in our image generation toolkit."/>
