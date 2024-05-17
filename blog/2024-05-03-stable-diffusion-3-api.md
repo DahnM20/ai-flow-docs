@@ -6,10 +6,9 @@ tags: [AI-FLOW, Image, Stable Diffusion, Image Generation, Image Processing]
 ---
 
 <head>
-  <title>Stable Diffusion 3 in AI-FLOW</title>
-  <meta charSet="utf-8" />
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:title" content="Stable Diffusion 3 in AI-FLOW" />
+  <meta name="twitter:creator" content="@AIFlowApp"/>
   <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-card-images/blog-sd3.png" data-rh="true"/>
   <meta property="og:image" content="https://docs.ai-flow.net/img/blog-card-images/blog-sd3.png" data-rh="true"/>
 </head>
