@@ -5,6 +5,16 @@ authors: dahn
 tags: [AI-FLOW, Document Processing, Productivity, Text Extraction]
 ---
 
+<head>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="How to Summarize Documents or Ask Questions Using AI-FLOW" /> 
+  <meta name="twitter:description" content="This guide provides a straightforward setup to help you efficiently integrate document processing into your workflow." />
+  <meta name="twitter:creator" content="@AIFlowApp"/>
+  <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-card-images/blog-documents.png"/>
+  <meta name="twitter:image:alt" content="This guide provides a straightforward setup to help you efficiently integrate document processing into your workflow."/>
+  <meta property="og:image" content="https://docs.ai-flow.net/img/blog-card-images/blog-documents.png" data-rh="true"/>
+</head>
+
 Whether you're looking to summarize key information or ask specific questions about a document's content, AI-FLOW offers an intuitive solution. This guide provides a straightforward setup to help you efficiently integrate document processing into your workflow.
 
 ### Understanding the Workflow
