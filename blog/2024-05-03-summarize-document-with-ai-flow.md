@@ -6,6 +6,10 @@ tags: [AI-FLOW, Document Processing, Productivity, Text Extraction]
 ---
 
 <head>
+  <meta
+  name="description"
+  content="Efficiently integrate document processing with AI-FLOW. Learn to summarize and extract text from documents using our intuitive guide. Enhance your workflow today!"
+  />
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:title" content="How to Summarize Documents or Ask Questions Using AI-FLOW" /> 
   <meta name="twitter:description" content="This guide provides a straightforward setup to help you efficiently integrate document processing into your workflow." />

@@ -6,6 +6,7 @@ tags: [AI-FLOW, Image, Stable Diffusion, Image Generation, Image Processing]
 ---
 
 <head>
+  <meta name="description" content="Discover AI-FLOW v0.6.4 with Stable Diffusion 3. Create detailed images that match your prompts and explore new creative possibilities. Try it now!"/>
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:title" content="Stable Diffusion 3 now available in AI-FLOW" /> 
   <meta name="twitter:description" content="AI-FLOW has now integrated Stable Diffusion 3, a significant upgrade in our image generation toolkit." />

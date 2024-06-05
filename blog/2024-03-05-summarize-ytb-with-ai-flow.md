@@ -5,6 +5,10 @@ authors: dahn
 tags: [AI-FLOW, Document Processing, Productivity, YouTube, Transcript]
 ---
 
+<head>
+    <meta name="description" content="Boost productivity by using YouTube Transcript Node and Whisper for high-quality transcriptions. Streamline video content analysis with AI-FLOW. Start now!"/>
+</head>
+
 Discover two effective ways to summarize YouTube videos using AI-FLOW. Whether you're creating content summaries or extracting specific information, AI-FLOW simplifies the process with its advanced AI nodes.
 
 ### Using the YouTube Transcript Node
