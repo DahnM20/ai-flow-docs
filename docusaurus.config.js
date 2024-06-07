@@ -1,6 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
+const tailwindPlugin = require("./plugins/tailwind-config.cjs");
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
@@ -18,6 +18,8 @@ const config = {
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
+
+  plugins: [tailwindPlugin],
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -75,6 +77,11 @@ const config = {
           {
             href: "https://github.com/DahnM20/ai-flow",
             label: "GitHub",
+            position: "right",
+          },
+          {
+            href: "https://twitter.com/DahnM20",
+            label: "Twitter",
             position: "right",
           },
         ],
