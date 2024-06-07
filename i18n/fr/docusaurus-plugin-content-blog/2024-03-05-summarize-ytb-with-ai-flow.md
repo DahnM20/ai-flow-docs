@@ -1,7 +1,7 @@
 ---
 slug: summarize-ytb-post
 title: Comment Résumer une Vidéo YouTube en Utilisant AI-FLOW
-description: Boostez votre productivité en utilisant le nœud de transcription YouTube et Whisper pour des transcriptions de haute qualité. Simplifiez l'analyse du contenu vidéo avec AI-FLOW. Commencez dès maintenant !
+description: Boostez votre productivité en utilisant le nœud de transcription YouTube et Whisper pour des transcriptions de haute qualité. Simplifiez l'analyse du contenu vidéo avec AI-FLOW.
 authors: dahn
 tags: [AI-FLOW, Traitement de Documents, Productivité, YouTube, Transcription]
 ---
