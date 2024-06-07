@@ -26,7 +26,12 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "fr"],
+    localeConfigs: {
+      en: {
+        htmlLang: "en-GB",
+      },
+    },
   },
 
   presets: [
@@ -42,6 +47,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarCount: 6,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/DahnM20/ai-flow-docs/tree/main/blog/",
@@ -84,6 +90,10 @@ const config = {
             label: "Twitter",
             position: "right",
           },
+          {
+            type: "localeDropdown",
+            position: "right",
+          },
         ],
       },
       footer: {
@@ -124,6 +134,10 @@ const config = {
               {
                 label: "Using Anthropic Claude 3 API in AI-FLOW",
                 href: "/blog/anthropic-claude-api",
+              },
+              {
+                label: "Summarize Youtube Video using AI-FLOW",
+                href: "/blog/summarize-ytb-post",
               },
             ],
           },
