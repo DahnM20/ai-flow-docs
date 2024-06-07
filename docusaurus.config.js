@@ -83,27 +83,73 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Documentation",
             items: [
               {
-                label: "Tutorial",
+                label: "Introduction to AI-FLOW",
                 to: "/docs/intro",
+              },
+              {
+                label: "Windows Installation Guide",
+                to: "/docs/install-guide/install-executable",
+              },
+              {
+                label: "Docker Installation Guide",
+                to: "/docs/install-guide/install-docker",
+              },
+              {
+                label: "Using Replicate for AI Models",
+                to: "/docs/nodes-presentation/replicate-node",
               },
             ],
           },
           {
-            title: "More",
+            title: "Popular Articles",
             items: [
               {
-                label: "🔵 Live App",
+                label: "Document Summarization with AI-FLOW",
+                href: "/blog/summarize-doc-post",
+              },
+              {
+                label: "Stable Diffusion 3 API Access via AI-FLOW",
+                href: "/blog/stable-diffusion-3-api",
+              },
+              {
+                label: "Using Anthropic Claude 3 API in AI-FLOW",
+                href: "/blog/anthropic-claude-api",
+              },
+            ],
+          },
+          {
+            title: "Latest Updates",
+            items: [
+              {
+                label: "Creating New Nodes in AI-FLOW",
+                href: "/docs/contribute/create-new-node",
+              },
+              {
+                label: "Guide to Translation Contributions",
+                href: "/docs/contribute/add-new-translations",
+              },
+              {
+                label: "Setting Up S3 File Uploads",
+                href: "/docs/file-upload/file-upload-s3",
+              },
+            ],
+          },
+          {
+            title: "Connect with Us",
+            items: [
+              {
+                label: "🔵 AI-FLOW Web Application",
                 href: "https://app.ai-flow.net",
               },
               {
-                label: "🐦 Twitter",
+                label: "🐦 Follow us on Twitter",
                 href: "https://twitter.com/DahnM20",
               },
               {
-                label: "🌐 Landing Page",
+                label: "🌐 Visit AI-FLOW Homepage",
                 href: "https://ai-flow.net",
               },
             ],

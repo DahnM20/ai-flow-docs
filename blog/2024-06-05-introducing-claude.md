@@ -1,7 +1,7 @@
 ---
 slug: anthropic-claude-api
 title: Access Claude 3 from Anthropic API through AI-FLOW
-description: Discover AI-FLOW v0.7.1 with Claude from Anthropic. Enhance your text generation with customizable settings and advanced AI models. Try it now!"
+description: Discover AI-FLOW v0.7.1 with Claude from Anthropic. Enhance your text generation with customizable settings and advanced AI models. Try it now!
 authors: dahn
 tags: [AI-FLOW, Claude, Text Generation, AI Assistant]
 ---
