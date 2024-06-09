@@ -44,7 +44,7 @@ const resources = [
     url: "/docs/contribute/create-new-node",
   },
   {
-    title: "Introduction Claude 3 API in AI-FLOW",
+    title: "Introducing Claude 3 API in AI-FLOW",
     description:
       "Following user feedback, AI-FLOW has now integrated Claude 3 from Anthropic, an upgrade in our text generation toolkit.",
     type: "Blog",
