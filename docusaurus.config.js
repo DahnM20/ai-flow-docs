@@ -15,6 +15,7 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
+  trailingSlash: true,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -104,19 +105,19 @@ const config = {
             items: [
               {
                 label: "Introduction to AI-FLOW",
-                to: "/docs/intro",
+                to: "/docs/intro/",
               },
               {
                 label: "Windows Installation Guide",
-                to: "/docs/install-guide/install-executable",
+                to: "/docs/install-guide/install-executable/",
               },
               {
                 label: "Docker Installation Guide",
-                to: "/docs/install-guide/install-docker",
+                to: "/docs/install-guide/install-docker/",
               },
               {
                 label: "Using Replicate for AI Models",
-                to: "/docs/nodes-presentation/replicate-node",
+                to: "/docs/nodes-presentation/replicate-node/",
               },
             ],
           },
@@ -125,19 +126,19 @@ const config = {
             items: [
               {
                 label: "Document Summarization with AI-FLOW",
-                href: "/blog/summarize-doc-post",
+                href: "/blog/summarize-doc-post/",
               },
               {
                 label: "Stable Diffusion 3 API Access via AI-FLOW",
-                href: "/blog/stable-diffusion-3-api",
+                href: "/blog/stable-diffusion-3-api/",
               },
               {
                 label: "Using Anthropic Claude 3 API in AI-FLOW",
-                href: "/blog/anthropic-claude-api",
+                href: "/blog/anthropic-claude-api/",
               },
               {
                 label: "Summarize Youtube Video using AI-FLOW",
-                href: "/blog/summarize-ytb-post",
+                href: "/blog/summarize-ytb-post/",
               },
             ],
           },
@@ -146,15 +147,15 @@ const config = {
             items: [
               {
                 label: "Creating New Nodes in AI-FLOW",
-                href: "/docs/contribute/create-new-node",
+                href: "/docs/contribute/create-new-node/",
               },
               {
                 label: "Guide to Translation Contributions",
-                href: "/docs/contribute/add-new-translations",
+                href: "/docs/contribute/add-new-translations/",
               },
               {
                 label: "Setting Up S3 File Uploads",
-                href: "/docs/file-upload/file-upload-s3",
+                href: "/docs/file-upload/file-upload-s3/",
               },
             ],
           },
