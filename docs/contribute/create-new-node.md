@@ -179,7 +179,7 @@ url = storage.save("your-filename.png", data)
 
 ## Optional: Adding New User Parameters to the App
 
-Please refer to the section [Adding New Parameters](add-new-parameters)
+Please refer to the section [Adding New Parameters](/docs/contribute/add-new-parameters.md)
 
 ## Optional: Adding new library
 
