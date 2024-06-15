@@ -48,7 +48,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          blogSidebarCount: 6,
+          blogSidebarCount: 10,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/DahnM20/ai-flow-docs/tree/main/blog/",

@@ -21,13 +21,13 @@ tags: [AI-FLOW, Claude, Text Generation, AI Assistant]
 
 Following user feedback, AI-FLOW has now integrated Claude from Anthropic, an upgrade in our text generation toolkit.
 
-![Example](/img/blog-images/claude-1.png)
+![Example using Claude](/img/blog-images/claude-1.png)
 
 **Get Started**
 
 The Claude node is quite similar to the GPT one. You can add a textual prompt and additional context for Claude.
 
-![Example](/img/blog-images/claude-2.png)
+![Example using Claude](/img/blog-images/claude-2.png)
 
 The only difference is that the Claude node is a bit more customizable. You'll have access to:
 
