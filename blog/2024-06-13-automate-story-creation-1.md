@@ -8,7 +8,7 @@ tags: [AI-FLOW, Storytelling, Child's Story, Creativity, AI, AI writing tools]
 
 <head>
   <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:title" content="How to automate story and image creation using AI" /> 
+  <meta name="twitter:title" content="How to automate story and image generation using AI" /> 
   <meta name="twitter:description" content="This guide provides a straightforward setup to help you efficiently create captivating AI powered stories using AI-FLOW." />
   <meta name="twitter:creator" content="@AIFlowApp"/>
   <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-card-images/blog-story-1.png"/>
@@ -16,9 +16,9 @@ tags: [AI-FLOW, Storytelling, Child's Story, Creativity, AI, AI writing tools]
   <meta property="og:image" content="https://docs.ai-flow.net/img/blog-card-images/blog-story-1.png" data-rh="true"/>
 </head>
 
-## How to Automate Story Creation Using AI-FLOW - Part 1
+## How to Automate Story Generation Using AI-FLOW - Part 1
 
-This guide aims to provide insights into automating the creation of a full short story using AI. The objective is to generate a coherent and compelling story, complete with engaging visuals. The ultimate goal is to achieve this in one click after setting up the initial workflow.
+This guide aims to provide insights into automating the generation of a full short story using AI. The objective is to generate a coherent and compelling story, complete with engaging visuals. The ultimate goal is to achieve this in one click after setting up the initial workflow.
 
 To clarify, this guide is not intended to promote mass production of AI powered stories but rather to offer a method to help visualize and inspire you during your creative process.
 
