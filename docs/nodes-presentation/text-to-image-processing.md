@@ -24,14 +24,16 @@ You need to add your **StabilityAI API Key** in the configuration menu to use th
 
 The Stable Diffusion node is powered by StabilityAI. It offers a different approach to image generation, providing more controlled and stable image outputs based on the input prompts. Whether you're aiming for detailed illustrations, abstract visuals, or specific image types, the Stable Diffusion node can be a game-changer in your visual content generation process.
 
-:::tip Note
-You can use it without providing an input node. 
-:::
-
 ![Stable diffusion without inpout node](/img/page-images/text-to-image-processing/1.png)
 
-:::tip Note
-If you provide an input node, then it will be considered as the input prompt. 
-:::
+If you provide an input node, then it will be considered as the input prompt.
 
-![Stable diffusion with inpout node](/img/page-images/text-to-image-processing/2.png)
+![Stable diffusion with inpout node](/img/blog-images/stable-diffusion-3-api-1.png)
+
+Please note that new nodes are now available for Stable Diffusion 3, the StabilityAI API, and DALL-E 3.
+
+You can refer to the following blog posts for introductions and real use-case scenarios:
+
+- [Introducing Stable Diffusion 3](../../../blog/stable-diffusion-3-api)
+- [Introducing StabilityAI API](../../../blog/stabilityai-api)
+- [How to Automate Story Generation](../../../blog/automate-story-creation-1)
