@@ -39,7 +39,7 @@ I will keep it simple for the example, but you may need something more elaborate
 
 ---
 
-_The story unfolds in a frozen country where our young hero, Eryn, a 16-year-old girl, is captivated by tales of legendary heroes. Eryn wields a replica of a famous hero's sword and dreams of living up to the legends she's always admired. Her mission is crucial: to find a scarlet dragon’s scale that has sustained her family with warmth for the past two years. As Eryn embarks on her quest, she discovers a profound truth—that it's not the legendary sword that makes a hero, but the bravery and heart of the one who wields it._
+_The story unfolds in a frozen country where our young hero, Eryn, a 16-year-old girl, is inspired by her late father's heroism. Eryn wields his cherished sword, dreaming of living up to his legacy. Her mission is crucial: to find a scarlet dragon’s scale that has sustained her family with warmth for the past two years. As Eryn embarks on her quest, she discovers a profound truth—that true heroism lies not in the legendary sword but in the bravery and heart of the one who wields it._
 
 _Art Style: The narrative is illustrated in a digital painting style, blending poetic elements suitable for children, creating a whimsical and inspiring journey._
 
