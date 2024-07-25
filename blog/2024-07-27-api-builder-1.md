@@ -1,26 +1,26 @@
 ---
 slug: api-builder-1
-title: Integrate and Automate AI Workflow with API Builder
+title: Integrate and Automate AI Workflows with API Builder
 authors: dahn
-description: Learn how to generate consistent characters using AI with our detailed guide. Discover practical methods to achieve uniformity in your AI-generated images.
+description: Discover practical methods to integrate and automate your AI workflow through AI-Flow API Builder.
 tags: [AI-FLOW, API Builder, API, AI Tools, Webhook]
 ---
 
 <head>
   <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:title" content="Integrate and Automate AI Workflow with API Builder" />
-  <meta name="twitter:description" content="Discover practical methods to automate your AI workflow through AI-Flow API Builder." />
+  <meta name="twitter:title" content="Integrate and Automate AI Workflows with API Builder" />
+  <meta name="twitter:description" content="Discover practical methods to integrate and automate your AI workflow through AI-Flow API Builder." />
   <meta name="twitter:creator" content="@AIFlowApp"/>
-  <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-card-images/api-builder-1.png"/>
-  <meta name="twitter:image:alt" content="Discover practical methods to automate your AI workflow through AI-Flow API Builder."/>
-  <meta property="og:title" content="Integrate and Automate AI Workflow with API Builder"/>
-  <meta property="og:description" content="Discover practical methods to automate your AI workflow through AI-Flow API Builder."/>
-  <meta property="og:image" content="https://docs.ai-flow.net/img/blog-card-images/api-builder-1.png"/>
+  <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-card-images/blog-api-builder-1.png"/>
+  <meta name="twitter:image:alt" content="Discover practical methods to integrate and automate your AI workflow through AI-Flow API Builder."/>
+  <meta property="og:title" content="Integrate and Automate AI Workflows with API Builder"/>
+  <meta property="og:description" content="Discover practical methods to integrate and automate your AI workflow through AI-Flow API Builder."/>
+  <meta property="og:image" content="https://docs.ai-flow.net/img/blog-card-images/blog-api-builder-1.png"/>
 </head>
 
 ## Unleashing the Power of AI Workflow with API Builder Nodes
 
-Harnessing the power of AI workflow has never been easier, thanks to the capabilities of the AI-Flow API. By leveraging the API Builder, developers can create robust AI flows, ensuring seamless integration and interaction between various AI models like GPT, DALL-E, Claude, Stable Diffusion, or any Replicate model. This article delves into the core features of the AI-Flow API Builder, demonstrating its benefits and ease of use.
+Streamlining and integrating AI workflows is now more accessible with the advanced capabilities of the AI-Flow API. By leveraging the API Builder, developers can create robust AI flows, ensuring seamless integration and interaction between various AI models like GPT, DALL-E, Claude, Stable Diffusion, or any Replicate model. This article delves into the core features of the AI-Flow API Builder, demonstrating its benefits and ease of use.
 
 ![API Builder Overview](/img/page-images/api-builder/api-builder-6.png)
 

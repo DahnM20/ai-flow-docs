@@ -20,7 +20,7 @@ tags: [AI-FLOW, API Builder, API, Outils IA, Webhook]
 
 ## Libérez la puissance de votre workflow IA avec les nœuds API Builder
 
-Exploiter la puissance des workflows IA n'a jamais été aussi simple, grâce aux capacités de l'API AI-Flow. En utilisant l'API Builder, les développeurs peuvent créer des workflows d'IA robustes, assurant une intégration et une interaction transparentes entre divers modèles d'IA tels que GPT, DALL-E, Claude, Stable Diffusion ou tout modèle Replicate. Cet article explore les principales fonctionnalités de l'API AI-Flow, démontrant ses avantages et sa facilité d'utilisation.
+Automatiser et intégrer des workflows IA est désormais plus accessible grâce aux capacités avancées de l'API AI-Flow. En utilisant l'API Builder, les développeurs peuvent créer des workflows d'IA robustes, assurant une intégration et une interaction transparentes entre divers modèles d'IA tels que GPT, DALL-E, Claude, Stable Diffusion ou tout modèle Replicate. Cet article explore les principales fonctionnalités de l'API AI-Flow, démontrant ses avantages et sa facilité d'utilisation.
 
 ![Aperçu d'API Builder](/img/page-images/api-builder/api-builder-6.png)
 
