@@ -54,5 +54,5 @@ You can set as many API Output or API Input nodes as needed. The API Output Node
 
 For more detailed information and advanced configurations, refer to the following resources:
 
-- [Webhook Node Documentation](/docs/pro-features/api-builder-presentation/webhooks/)
-- [API Builder View](/docs/pro-features/api-builder-presentation/builder-view/)
+- [Webhook Node Documentation](/docs/pro-features/api-builder/webhooks/)
+- [API Builder View](/docs/pro-features/api-builder/builder-view/)

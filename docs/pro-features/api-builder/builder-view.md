@@ -2,7 +2,7 @@
 
 The **API Builder View** is accessible through the right pane of the app. This view allows you to monitor the current state of the API Key, learn how to use your API, and generate your API Key. Please note that to ensure the API functions correctly, you must enable Cloud Save.
 
-![API Output Node Example](/img/page-images/api-builder/api-builder-3.png)
+![API Builder View](/img/page-images/api-builder/api-builder-3.png)
 
 ## Overview of the API
 
@@ -48,4 +48,4 @@ For immediate access to your result without making additional requests, you can 
 
 For more detailed information and advanced configurations, refer to the following resources:
 
-- [Webhook Node Documentation](/docs/pro-features/api-builder-presentation/webhooks/)
+- [Webhook Node Documentation](/docs/pro-features/api-builder/webhooks/)

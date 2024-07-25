@@ -125,6 +125,10 @@ const config = {
             title: "Popular Articles",
             items: [
               {
+                label: "Integrate and Automate AI Workflow with API Builder",
+                href: "/blog/api-builder-1/",
+              },
+              {
                 label: "Document Summarization with AI-FLOW",
                 href: "/blog/summarize-doc-post/",
               },
@@ -145,6 +149,14 @@ const config = {
           {
             title: "Latest Updates",
             items: [
+              {
+                label: "API Builder Nodes",
+                href: "/docs/pro-features/api-builder/api-nodes/",
+              },
+              {
+                label: "API Builder View",
+                href: "/docs/pro-features/api-builder/builder-view/",
+              },
               {
                 label: "Creating New Nodes in AI-FLOW",
                 href: "/docs/contribute/create-new-node/",
