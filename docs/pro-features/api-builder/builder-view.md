@@ -1,6 +1,6 @@
 # API Builder View Documentation
 
-The **API Builder View** is accessible through the right pane of the app. This view allows you to monitor the current state of the API Key, learn how to use your API, and generate your API Key. Please note that to ensure the API functions correctly, you must enable Cloud Save.
+The **API Builder View** is accessible through the right pane of the app. This view allows you to monitor the current state of the API, learn how to use your API, and generate your API Key. Please note that to ensure the API functions correctly, you must enable Cloud Save.
 
 ![API Builder View](/img/page-images/api-builder/api-builder-3.png)
 
