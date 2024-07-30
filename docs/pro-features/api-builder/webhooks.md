@@ -38,7 +38,7 @@ The global webhook is a unique webhook that will return all the output defined i
 
 Global webhook can be added in your run request through the specific field `run_options`.
 
-Here's a example of a full request :
+Here's an example of a full request :
 
 ```json
 {
@@ -55,9 +55,9 @@ Here's a example of a full request :
 
 As for the other webhooks, if you specify a signature, it will be included in the `AI_FLOW_SIGNATURE` header of the webhook request.
 
-### Additionnal : save option
+### Additional : save option
 
-If you want your output to only be accessible through the webhook, you can add the optionnal **save** option.
+If you want your output to only be accessible through the webhook, you can add the optional **save** option.
 
 By default, your result are available for ~48H through the /result route, with the given run_id and the good api key.
 
