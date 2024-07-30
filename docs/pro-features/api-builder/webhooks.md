@@ -34,6 +34,51 @@ You can add multiple webhook to your flow. The Webhook Node has an output handle
 
 ## Global Webhook
 
-(incoming)
+The global webhook is a unique webhook that will return all the output defined in your API once the run is completed.
+
+Global webhook can be added in your run request through the specific field `run_options`.
+
+Here's a example of a full request :
+
+```json
+{
+  "my_input_1": "value",
+  "my_input_2": "value",
+  "run_options": {
+    "global_webhook": {
+      "url": "your_webhook_url",
+      "signature": "optional_signature_header"
+    }
+  }
+}
+```
+
+As for the other webhooks, if you specify a signature, it will be included in the `AI_FLOW_SIGNATURE` header of the webhook request.
+
+### Additionnal : save option
+
+If you want your output to only be accessible through the webhook, you can add the optionnal **save** option.
+
+By default, your result are available for ~48H through the /result route, with the given run_id and the good api key.
+
+With this option set to false, your result will only be send to you, and not be accessible in any other ways.
+
+_Please note that files URL such as images, videos, are still hosted 48H for you to be able to save them._
+
+```json
+{
+  "my_input_1": "value",
+  "my_input_2": "value",
+  "run_options": {
+    "global_webhook": {
+      "url": "your_webhook_url",
+      "signature": "optional_signature_header"
+    },
+    "save": false
+  }
+}
+```
+
+> Using this option without the global webhook will just make your result not accessible. Unless if you have configured individuals webhooks in the flow.
 
 ---
