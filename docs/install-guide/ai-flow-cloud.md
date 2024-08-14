@@ -12,15 +12,15 @@ This version is designed with flexibility in mind. **<span style={{color: '#25c2
 
 ## AI-Flow Cloud vs. Self-Hosting
 
-| Feature               | Self-Hosting                               | AI-Flow Cloud                                                              |
-| --------------------- | ------------------------------------------ | -------------------------------------------------------------------------- |
-| **Accessibility**     | Available only on configured machines      | **✔️ Available on any device with internet access**                        |
-| **Updates**           | Manual download and installation           | **✔️ Automatic updates**                                                   |
-| **File Uploads**      | Manual S3 or R2 configuration              | **✔️ Fully managed, no setup required**                                    |
-| **Data Saving**       | Limited to local setup                     | **✔️ Automatic saving and backups**                                        |
-| **Advanced Features** | <span style={{color: '#FF0000'}}>❌</span> | **✔️ Includes Webhooks, Input Automation, and API Builder out-of-the-box** |
-| **SSL/TLS Security**  | Requires manual configuration              | **✔️ Fully managed SSL/TLS with automated renewals**                       |
-| **Community Sharing** | <span style={{color: '#FF0000'}}>❌</span> | **✔️ Share and run flows with the community**                              |
+| Feature               | Self-Hosting                          | AI-Flow Cloud                                                              |
+| --------------------- | ------------------------------------- | -------------------------------------------------------------------------- |
+| **Accessibility**     | Available only on configured machines | **✔️ Available on any device with internet access**                        |
+| **Updates**           | Manual download and installation      | **✔️ Automatic updates**                                                   |
+| **File Uploads**      | Manual S3 or R2 configuration         | **✔️ Fully managed, no setup required**                                    |
+| **Data Saving**       | Limited to local setup                | **✔️ Automatic saving and backups**                                        |
+| **Advanced Features** | ❌                                    | **✔️ Includes Webhooks, Input Automation, and API Builder out-of-the-box** |
+| **SSL/TLS Security**  | Requires manual configuration         | **✔️ Fully managed SSL/TLS**                                               |
+| **Community Sharing** | ❌                                    | **✔️ Share and run flows with the community**                              |
 
 ## How Billing Works
 

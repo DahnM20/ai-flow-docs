@@ -6,7 +6,7 @@
 
 ### With the Desktop App (Recommended)
 
-You can download the application from the following link: [Releases AI-FLOW](https://ai-flow.net/release.html).
+You can download the application from the following link: [Releases AI-FLOW](https://ai-flow.net/release/).
 
 To use the desktop app, simply run the .exe file after downloading. This executable will launch a local server to run AI-FLOW, allowing you to access the user interface directly as a Windows application.
 
@@ -22,7 +22,7 @@ Or, update the REPLICATE_API_KEY in `ai-flow-win32-x64/resources/server/.env`
 
 ### With the server.exe release
 
-You can download the server release here : [Releases AI-FLOW](https://ai-flow.net/release.html).
+You can download the server release here : [Releases AI-FLOW](https://ai-flow.net/release/).
 
 1. **Download the Executable**:
    - Download the `.rar` file provided for the latest release.
