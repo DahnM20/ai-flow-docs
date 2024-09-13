@@ -8,6 +8,12 @@ The **API Builder View** is accessible through the right pane of the app. This v
 
 Depending on the presence of API Input, API Output, or Webhook in your flow, you'll be able to see different sections with a summary of every API-related node. Ensure that each of your Input and Output nodes has a distinct name.
 
+## Get your flow ID
+
+To view your flow ID, open the right-side pane. Once the pane is open, ensure that cloud save is enabled to access your flow ID.
+
+![API Builder Flow ID](/img/page-images/api-builder/api-builder-flow-id.png)
+
 ## Generate API Key
 
 In the API Builder, you can generate API Keys. These keys need to be used as an Authorization header for all requests to the API. You can use the API Keys generated for any of your flows.
