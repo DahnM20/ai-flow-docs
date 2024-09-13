@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "AI-Flow Docs",
-  tagline: "Everything you need to build your own flow !",
+  title: "AI-Flow Documentation",
+  tagline: "Everything you need to build your workflow",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
