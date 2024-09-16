@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
@@ -29,6 +30,34 @@ function HomepageHeader() {
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
+
+  useEffect(() => {
+    const handleMessage = (event) => {
+      if (event.origin.indexOf("ai-flow.net") === -1) {
+        return;
+      }
+
+      if (event.data && event.data.type === "getContent") {
+        const targetElement = document.querySelector("main");
+        if (targetElement) {
+          event.source.postMessage(
+            {
+              type: "targetContent",
+              content: targetElement.innerHTML,
+            },
+            event.origin
+          );
+        }
+      }
+    };
+
+    window.addEventListener("message", handleMessage);
+
+    return () => {
+      window.removeEventListener("message", handleMessage);
+    };
+  }, []);
+
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -41,22 +70,3 @@ export default function Home() {
     </Layout>
   );
 }
-
-window.addEventListener("message", (event) => {
-  if (event.origin.indexOf("ai-flow.net") === -1) {
-    return;
-  }
-
-  if (event.data && event.data.type === "getContent") {
-    const targetElement = document.querySelector("main");
-    if (targetElement) {
-      event.source.postMessage(
-        {
-          type: "targetContent",
-          content: targetElement.innerHTML,
-        },
-        event.origin
-      );
-    }
-  }
-});
