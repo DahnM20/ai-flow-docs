@@ -11,11 +11,11 @@ tags: [AI-FLOW, API Builder, API, AI Tools, Replicate]
   <meta name="twitter:title" content="Access Replicate API through AI-Flow" />
   <meta name="twitter:description" content="Seamlessly Integrate Replicate API with AI-FLOW for AI workflow automation." />
   <meta name="twitter:creator" content="@AIFlowApp"/>
-  <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-card-images/blog-api-builder-1.png"/>
+  <meta name="twitter:image" content="https://docs.ai-flow.net/img/page-images/replicate-node/model-popup.png"/>
   <meta name="twitter:image:alt" content="Seamlessly Integrate Replicate API with AI-FLOW for AI workflow automation."/>
   <meta property="og:title" content="Access Replicate API through AI-Flow"/>
   <meta property="og:description" content="Seamlessly Integrate Replicate API with AI-FLOW for AI workflow automation."/>
-  <meta property="og:image" content="https://docs.ai-flow.net/img/blog-card-images/blog-api-builder-1.png"/>
+  <meta property="og:image" content="https://docs.ai-flow.net/img/page-images/replicate-node/model-popup.png"/>
 </head>
 
 AI-Flow empowers users to automate complex AI workflows by connecting various tools, models, and data sources. Through the **Replicate Node** in AI-Flow, you can easily access, select, and utilize models from Replicate to enhance your AI workflows.

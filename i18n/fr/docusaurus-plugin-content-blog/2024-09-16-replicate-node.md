@@ -11,11 +11,11 @@ tags: [AI-FLOW, Constructeur d'API, API, Outils IA, Replicate]
   <meta name="twitter:title" content="Accéder à l'API Replicate via AI-Flow" />  
   <meta name="twitter:description" content="Intégration transparente de l'API Replicate avec AI-FLOW pour l'automatisation des flux de travail IA." />  
   <meta name="twitter:creator" content="@AIFlowApp"/>  
-  <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-card-images/blog-api-builder-1.png"/>  
+  <meta name="twitter:image" content="https://docs.ai-flow.net/img/page-images/replicate-node/model-popup.png"/>  
   <meta name="twitter:image:alt" content="Intégration transparente de l'API Replicate avec AI-FLOW pour l'automatisation des flux de travail IA."/>  
   <meta property="og:title" content="Accéder à l'API Replicate via AI-Flow"/>  
   <meta property="og:description" content="Intégration transparente de l'API Replicate avec AI-FLOW pour l'automatisation des flux de travail IA."/>  
-  <meta property="og:image" content="https://docs.ai-flow.net/img/blog-card-images/blog-api-builder-1.png"/>  
+  <meta property="og:image" content="https://docs.ai-flow.net/img/page-images/replicate-node/model-popup.png"/>  
 </head>
 
 AI-Flow permet aux utilisateurs d'automatiser des flux de travail IA complexes en connectant divers outils, modèles et sources de données. Grâce au **nœud Replicate** dans AI-Flow, vous pouvez facilement accéder à des modèles de Replicate, les sélectionner et les utiliser pour améliorer vos flux de travail IA.
