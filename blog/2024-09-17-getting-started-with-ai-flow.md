@@ -11,11 +11,11 @@ tags: [AI-FLOW, AI Tools, Workflow Automation]
   <meta name="twitter:title" content="Getting Started With AI-Flow" />
   <meta name="twitter:description" content="This guide will help you get started with AI-Flow, adding nodes, connecting them, customizing workspace." />
   <meta name="twitter:creator" content="@AIFlowApp"/>
-  <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-card-images/app-overview-r.png.png"/>
+  <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-card-images/app-overview-r.png"/>
   <meta name="twitter:image:alt" content="AI-Flow Workflow Integration"/>
   <meta property="og:title" content="Getting Started With AI-Flow"/>
   <meta property="og:description" content="This guide will help you get started with AI-Flow, adding nodes, connecting them, customizing workspace."/>
-  <meta property="og:image" content="https://docs.ai-flow.net/img/blog-card-images/app-overview-r.png.png"/>
+  <meta property="og:image" content="https://docs.ai-flow.net/img/blog-card-images/app-overview-r.png"/>
 </head>
 
 AI-Flow is a tool designed to simplify and automate your AI workflows by connecting various services and tools into a unified flow. This guide will help you get started with AI-Flow, including adding nodes, connecting them, and customizing your workspace for an optimized workflow.
