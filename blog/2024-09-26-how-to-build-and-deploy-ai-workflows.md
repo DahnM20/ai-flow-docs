@@ -34,7 +34,7 @@ AI-Flow is both a platform and an open-source tool that enables users to create 
 
 <video autoPlay loop style={{width: "100%"}}>
 
-  <source src="https://ai-flow.net/video/ytb-dnd.mp4" type="video/mp4"/>
+  <source src="/img/blog-images/ytb-dnd.mp4" type="video/mp4"/>
 </video>
 
 ### Key Features of AI-Flow
