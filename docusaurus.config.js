@@ -126,20 +126,16 @@ const config = {
             title: "Popular Articles",
             items: [
               {
+                label: "How to Build and Deploy AI Workflows Easily",
+                href: "/blog/how-to-build-and-deploy-ai-workflows/",
+              },
+              {
                 label: "Integrate and Automate AI Workflow with API Builder",
                 href: "/blog/api-builder-1/",
               },
               {
                 label: "Document Summarization with AI-FLOW",
                 href: "/blog/summarize-doc-post/",
-              },
-              {
-                label: "Stable Diffusion 3 API Access via AI-FLOW",
-                href: "/blog/stable-diffusion-3-api/",
-              },
-              {
-                label: "Using Anthropic Claude 3 API in AI-FLOW",
-                href: "/blog/anthropic-claude-api/",
               },
               {
                 label: "Summarize Youtube Video using AI-FLOW",
@@ -150,6 +146,10 @@ const config = {
           {
             title: "Latest Updates",
             items: [
+              {
+                label: "Getting Started With AI-Flow",
+                href: "/blog/getting-started-with-ai-flow/",
+              },
               {
                 label: "API Builder Nodes",
                 href: "/docs/pro-features/api-builder/api-nodes/",
