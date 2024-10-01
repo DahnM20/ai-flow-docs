@@ -1,76 +1,139 @@
 import React from "react";
-import clsx from "clsx";
 
-const resources = [
+// Define the big card data
+const bigCardData = {
+  title: "How to Build and Deploy AI Workflows Easily",
+  description:
+    "Discover how to effortlessly build and deploy AI workflows using AI-Flow's drag-and-drop interface. Integrate multiple AI models and automate tasks without coding!",
+  type: "Article",
+  typeColor: "rgb(237, 177, 30)",
+  date: "September 26, 2024",
+  imageUrl: "/img/blog-card-images/app-overview-r.png",
+  url: "/blog/how-to-build-and-deploy-ai-workflows/",
+};
+
+// Define the small articles data
+const smallArticlesData = [
   {
-    title: "API Builder Nodes",
-    description: "This guide describes how to use the API Builder feature.",
-    type: "Tutorial",
-    typeColor: "rgb(237 177 30)",
-    url: "/docs/pro-features/api-builder/api-nodes/",
+    title: "Access Replicate API through AI-Flow",
+    type: "Article",
+    typeColor: "rgb(237, 177, 30)",
+    imageUrl: "/img/page-images/replicate-node/model-popup.png",
+    url: "/blog/replicate-node/",
   },
   {
     title: "Integrate and Automate AI Workflows with API Builder",
-    description: "This article dives into workflow creation and integration.",
-    type: "Blog",
-    typeColor: "rgb(166 255 169)",
+    type: "Article",
+    typeColor: "rgb(237, 177, 30)",
+    imageUrl: "/img/page-images/api-builder/api-builder-6.png",
     url: "/blog/api-builder-1/",
   },
+  {
+    title: "How to automate story and image creation using AI - Part 1",
+    type: "Article",
+    typeColor: "rgb(237, 177, 30)",
+    imageUrl: "/img/blog-images/story-2.png",
+    url: "/blog/automate-story-creation-1/",
+  },
 ];
-function Feature({ Svg, title, description }) {
+
+function BigCard({ title, description, type, typeColor, date, imageUrl, url }) {
   return (
-    <div className={clsx("col col--4")}>
-      <div className="text-center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
+    <article className="big-card rounded-xl overflow-hidden bg-white dark:bg-gray-800/90 shadow-md hover:shadow-lg transition-shadow duration-300">
+      <a href={url} className="block">
+        <img
+          src={imageUrl}
+          alt={title}
+          className="w-full h-auto transition-transform duration-300 hover:scale-105"
+        />
+      </a>
+      <div className="p-8">
+        <header>
+          <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-2">
+            <span
+              className="block h-3 w-3 rounded-full"
+              style={{ backgroundColor: typeColor }}
+            ></span>
+            <span className="uppercase font-semibold text-gray-700 dark:text-gray-300">
+              {type}
+            </span>
+            <span className="ml-auto">{date}</span>
+          </div>
+          <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
+            <a href={url} className="hover:underline">
+              {title}
+            </a>
+          </h3>
+          <p className="text-gray-600 dark:text-gray-300">{description}</p>
+        </header>
       </div>
-    </div>
+    </article>
   );
 }
-
-function ResourceCard({ title, description, type, typeColor, url }) {
+function SmallArticle({ title, imageUrl, url, type, typeColor }) {
   return (
-    <div className="flex flex-col rounded-xl overflow-hidden w-full text-white bg-gradient-to-br  from-sky-950/90 hover:bg-sky-900 transition duration-300 pb-5">
-      <div className="flex justify-between px-6 py-4 items-center border-[#8A99A0]">
-        <div className="flex items-center gap-2 text-sm">
-          <span
-            className="block h-[13px] w-[13px] rounded-full"
-            style={{ background: typeColor }}
-          ></span>
-          <span className="uppercase font-semibold">{type}</span>
-        </div>
+    <article className="small-article flex mb-6  bg-gray-800/60 bg-gradient-to-br rounded-lg shadow-md transition-shadow duration-300 hover:shadow-lg overflow-hidden">
+      <a
+        href={url}
+        className="flex-shrink-0"
+        aria-label={`Read more about ${title}`}
+      >
+        <img
+          src={imageUrl}
+          alt={`Thumbnail for ${title}`}
+          className="w-24 h-24 md:h-full  md:w-44 md:min-h-36 object-cover transition-transform duration-300 hover:scale-105 "
+        />
+      </a>
+      <div className="ml-4 flex flex-col justify-between py-5 px-2">
+        <header>
+          <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400 mb-2">
+            <span
+              className="block h-2 w-2 rounded-full"
+              style={{ backgroundColor: typeColor }}
+              aria-hidden="true"
+            ></span>
+            <span className="uppercase font-semibold text-gray-700 dark:text-gray-300">
+              {type}
+            </span>
+          </div>
+          <h4 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-1">
+            <a
+              href={url}
+              className="hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              {title}
+            </a>
+          </h4>
+        </header>
+        <a
+          href={url}
+          className="text-blue-500 dark:text-blue-400 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500"
+          aria-label={`Read more about ${title}`}
+        >
+          Read more &gt;
+        </a>
       </div>
-      <div className="flex flex-col gap-3 px-6 pb-3">
-        <h4 className="min-h-2 font-jakarta text-2xl leading-[32px]">
-          {title}
-        </h4>
-        <p className="min-h-7  font-jakarta text-lg">{description}</p>
-        <div className="flex items-end justify-between">
-          <a
-            className="inline-flex items-center justify-center gap-2 text-center rounded-lg transition-colors w-full font-normal bg-transparent active:text-[#DCFF1E] h-auto active:bg-white text-white p-0 whitespace-nowrap font-space text-xl tracking-tighter sm:w-fit"
-            href={url}
-          >
-            Learn more {">"}
-          </a>
-        </div>
-      </div>
-    </div>
+    </article>
   );
 }
 
 export default function HomepageFeatures() {
   return (
-    <>
-      <section className="flex flex-col justify-center w-full items-center space-y-2  mt-2 mb-10">
-        <h3 className="text-2xl">Latest Resources</h3>
-        <div className="flex flex-wrap justify-center gap-6">
-          {resources.map((resource, index) => (
-            <div key={index} className="flex w-full md:w-1/3 px-4">
-              <ResourceCard {...resource} />
-            </div>
-          ))}
+    <section className="flex flex-col items-center mt-2 mb-10 px-4">
+      <div className="w-full max-w-7xl">
+        <div className="flex flex-col md:flex-row md:-mx-4">
+          {/* Left Column for Big Card */}
+          <div className="md:w-1/2 md:px-4 mb-8 md:mb-0">
+            <BigCard {...bigCardData} />
+          </div>
+          {/* Right Column for Small Articles */}
+          <div className="md:w-1/2 md:px-4">
+            {smallArticlesData.map((article, index) => (
+              <SmallArticle key={index} {...article} />
+            ))}
+          </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }

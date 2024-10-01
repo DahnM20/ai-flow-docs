@@ -7,7 +7,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "AI-Flow Documentation",
-  tagline: "Everything you need to build your workflow",
+  tagline:
+    "Effortlessly Connect, Customize, and Automate AI Workflows with Our Drag-and-Drop Interface",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -48,7 +49,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          blogSidebarCount: "ALL",
+          blogSidebarCount: 0,
+          // blogSidebarCount: "ALL",
           blogSidebarTitle: "All posts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -67,9 +69,10 @@ const config = {
       image: "img/ai-flow-social-card.png",
       colorMode: {
         defaultMode: "dark",
+        disableSwitch: true,
       },
       navbar: {
-        title: "AI-Flow Docs",
+        title: "Documentation",
         logo: {
           alt: "AI-Flow Logo",
           src: "img/logo.svg",
@@ -82,16 +85,16 @@ const config = {
             label: "Tutorial",
           },
           { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/DahnM20/ai-flow",
-            label: "GitHub",
-            position: "right",
-          },
-          {
-            href: "https://twitter.com/DahnM20",
-            label: "Twitter",
-            position: "right",
-          },
+          // {
+          //   href: "https://github.com/DahnM20/ai-flow",
+          //   label: "GitHub",
+          //   position: "right",
+          // },
+          // {
+          //   href: "https://twitter.com/DahnM20",
+          //   label: "Twitter",
+          //   position: "right",
+          // },
           {
             type: "localeDropdown",
             position: "right",
@@ -102,7 +105,7 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Documentation",
+            title: "DOCUMENTATION",
             items: [
               {
                 label: "Introduction to AI-FLOW",
@@ -123,7 +126,7 @@ const config = {
             ],
           },
           {
-            title: "Popular Articles",
+            title: "POPULAR ARTICLES",
             items: [
               {
                 label: "How to Build and Deploy AI Workflows Easily",
@@ -132,6 +135,10 @@ const config = {
               {
                 label: "Integrate and Automate AI Workflow with API Builder",
                 href: "/blog/api-builder-1/",
+              },
+              {
+                label: "Access Replicate API through AI-Flow",
+                href: "/blog/replicate-node/",
               },
               {
                 label: "Document Summarization with AI-FLOW",
@@ -144,7 +151,7 @@ const config = {
             ],
           },
           {
-            title: "Latest Updates",
+            title: "LATEST UPDATES",
             items: [
               {
                 label: "Getting Started With AI-Flow",
@@ -159,32 +166,38 @@ const config = {
                 href: "/docs/pro-features/api-builder/builder-view/",
               },
               {
-                label: "Creating New Nodes in AI-FLOW",
-                href: "/docs/contribute/create-new-node/",
+                label:
+                  "How to automate story and image creation using AI - Part 2",
+                href: "/blog/automate-story-creation-2/",
               },
               {
-                label: "Guide to Translation Contributions",
-                href: "/docs/contribute/add-new-translations/",
+                label:
+                  "How to automate story and image creation using AI - Part 1",
+                href: "/blog/automate-story-creation-1/",
               },
-              {
-                label: "Setting Up S3 File Uploads",
-                href: "/docs/file-upload/file-upload-s3/",
-              },
+              // {
+              //   label: "Creating New Nodes in AI-FLOW",
+              //   href: "/docs/contribute/create-new-node/",
+              // },
+              // {
+              //   label: "Guide to Translation Contributions",
+              //   href: "/docs/contribute/add-new-translations/",
+              // },
+              // {
+              //   label: "Setting Up S3 File Uploads",
+              //   href: "/docs/file-upload/file-upload-s3/",
+              // },
             ],
           },
           {
-            title: "Connect with Us",
+            title: "PRODUCT",
             items: [
               {
-                label: "🔵 AI-FLOW Web Application",
+                label: "AI-FLOW Web Application",
                 href: "https://app.ai-flow.net",
               },
               {
-                label: "🐦 Follow us on Twitter",
-                href: "https://twitter.com/DahnM20",
-              },
-              {
-                label: "🌐 Visit AI-FLOW Homepage",
+                label: "AI-FLOW Homepage",
                 href: "https://ai-flow.net",
               },
             ],
