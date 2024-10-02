@@ -62,7 +62,7 @@ Moreover, users can experiment with different AI models to tailor the output per
 
 ### The Benefits of a Structured AI Workflow
 
-Many entrepreneurs already use tools like ChatGPT for creating content. This aligns with the broader trend, as [McKinsey's 2024 AI Report](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai) indicates that **65% of organizations now utilize generative AI in at least one business function**—a significant increase from just a year ago. Notably, marketing and sales departments have seen their adoption rates more than double, emphasizing the crucial role AI plays in driving eCommerce success​(McKinsey & Company).
+Many entrepreneurs already use tools like ChatGPT for creating content. This aligns with the broader trend, as [McKinsey's 2024 AI Report](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai) indicates that **65% of organizations now utilize generative AI in at least one business function**—a significant increase from just a year ago. Notably, marketing and sales departments have seen their adoption rates more than double, emphasizing the crucial role AI plays in driving eCommerce success.
 
 The structured workflow provided by AI-Flow offers numerous advantages:
 
