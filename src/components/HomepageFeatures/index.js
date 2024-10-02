@@ -1,5 +1,7 @@
 import React from "react";
 
+import { FaArrowRight } from "react-icons/fa6";
+
 // Define the big card data
 const bigCardData = {
   title: "How to Build and Deploy AI Workflows Easily",
@@ -34,6 +36,51 @@ const smallArticlesData = [
     typeColor: "rgb(237, 177, 30)",
     imageUrl: "/img/blog-images/story-2.png",
     url: "/blog/automate-story-creation-1/",
+  },
+];
+
+const templatesData = [
+  {
+    title: "Generate SEO-Optimized Product Description with AI",
+    type: "Template",
+    typeColor: "rgb(30 237 213)",
+    imageUrl: "/img/blog-images/generate-product-description-2.png",
+    url: "/blog/generate-product-description/",
+  },
+  {
+    title: "Create Illustrated Short Children's Stories with AI",
+    type: "Template",
+    typeColor: "rgb(30 237 213)",
+    imageUrl: "/img/blog-images/template-short-child-story.png",
+    url: "/blog/summarize-doc-post/",
+  },
+  {
+    title: "Create Stunning Coloring Book Pages with AI",
+    type: "Template",
+    typeColor: "rgb(30 237 213)",
+    imageUrl: "/img/blog-images/template-coloring-book.png",
+    url: "/blog/creating-coloring-book-pages-with-ai-flow/",
+  },
+  {
+    title: "Summarize Youtube Video with AI",
+    type: "Template",
+    typeColor: "rgb(30 237 213)",
+    imageUrl: "/img/blog-images/summarize-ytb-post-1.png",
+    url: "/blog/summarize-ytb-post/",
+  },
+  {
+    title: "How to Summarize Documents or Ask Questions Using AI-FLOW",
+    type: "Template",
+    typeColor: "rgb(30 237 213)",
+    imageUrl: "/img/blog-images/summarize-doc-post.png",
+    url: "/blog/ummarize-doc-post/",
+  },
+  {
+    title: "How to automate story and image creation using AI - Part 2",
+    type: "Template",
+    typeColor: "rgb(30 237 213)",
+    imageUrl: "/img/blog-images/story-2-1.png",
+    url: "/blog/automate-story-creation-2/",
   },
 ];
 
@@ -81,7 +128,7 @@ function SmallArticle({ title, imageUrl, url, type, typeColor }) {
         <img
           src={imageUrl}
           alt={`Thumbnail for ${title}`}
-          className="w-24 h-24 md:h-full  md:w-44 md:min-h-36 object-cover transition-transform duration-300 hover:scale-105 "
+          className="w-24 md:h-full  md:w-44 min-h-full md:min-h-36 object-cover transition-transform duration-300 hover:scale-105 "
         />
       </a>
       <div className="ml-4 flex flex-col justify-between py-5 px-2">
@@ -107,10 +154,57 @@ function SmallArticle({ title, imageUrl, url, type, typeColor }) {
         </header>
         <a
           href={url}
-          className="text-blue-500 dark:text-blue-400 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="text-blue-500 dark:text-blue-400 flex items-center gap-2 transition-transform duration-300 hover:translate-x-1 focus:outline-none"
           aria-label={`Read more about ${title}`}
+          style={{ textDecoration: "none" }}
         >
-          Read more &gt;
+          Read more
+          <FaArrowRight className="transition-transform duration-300 transform group-hover:translate-x-1" />{" "}
+        </a>
+      </div>
+    </article>
+  );
+}
+
+function TemplateArticle({ title, imageUrl, url, type, typeColor }) {
+  return (
+    <article className="flex flex-col mb-6  bg-gray-800/60 rounded-lg shadow-md transition-shadow duration-300 hover:shadow-lg overflow-hidden h-96 w-full">
+      <a href={url} className="" aria-label={`Read more about ${title}`}>
+        <img
+          src={imageUrl}
+          alt={`Thumbnail for ${title}`}
+          className="w-full h-52 object-cover transition-transform duration-300 hover:scale-105"
+        />
+      </a>
+      <div className="flex flex-col justify-between py-5 px-5 flex-1 overflow-hidden">
+        <header>
+          <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400 mb-2">
+            <span
+              className="block h-2 w-2 rounded-full"
+              style={{ backgroundColor: typeColor }}
+              aria-hidden="true"
+            ></span>
+            <span className="uppercase font-semibold text-gray-700 dark:text-gray-300">
+              {type}
+            </span>
+          </div>
+          <h4 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-1 line-clamp-2">
+            <a
+              href={url}
+              className="hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              {title}
+            </a>
+          </h4>
+        </header>
+        <a
+          href={url}
+          className="text-blue-500 dark:text-blue-400 flex items-center gap-2 transition-transform duration-300 hover:translate-x-1 focus:outline-none"
+          aria-label={`Read more about ${title}`}
+          style={{ textDecoration: "none" }}
+        >
+          Read more
+          <FaArrowRight className="transition-transform duration-300 transform group-hover:translate-x-1" />{" "}
         </a>
       </div>
     </article>
@@ -132,6 +226,25 @@ export default function HomepageFeatures() {
               <SmallArticle key={index} {...article} />
             ))}
           </div>
+        </div>
+      </div>
+      <div className="w-full mt-20 justify-center flex flex-col">
+        <span className="w-full text-center flex flex-col">
+          <h3 className="text-3xl font-semibold">
+            Explore Our Featured Templates
+          </h3>
+          <p className="text-lg mt-2 text-gray-400">
+            Discover detailed guides on our selected templates. More options are
+            available in the application, covering image generation,
+            productivity, SEO workflows, data scraping, and more.
+          </p>
+        </span>
+        <div className="flex flex-wrap justify-center mt-10 gap-8 w-full ">
+          {templatesData.map((article, index) => (
+            <div className="md:w-1/4 w-full">
+              <TemplateArticle key={index} {...article} />
+            </div>
+          ))}
         </div>
       </div>
     </section>
