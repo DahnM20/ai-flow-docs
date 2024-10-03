@@ -17,6 +17,13 @@ const bigCardData = {
 // Define the small articles data
 const smallArticlesData = [
   {
+    title: "How to Generate High-Quality Images with FLUX 1.1 Pro",
+    type: "Article",
+    typeColor: "rgb(237, 177, 30)",
+    imageUrl: "/img/blog-images/flux-1-1.png",
+    url: "/blog/generate-images-with-flux-1-1-pro/",
+  },
+  {
     title: "Access Replicate API through AI-Flow",
     type: "Article",
     typeColor: "rgb(237, 177, 30)",
@@ -29,13 +36,6 @@ const smallArticlesData = [
     typeColor: "rgb(237, 177, 30)",
     imageUrl: "/img/page-images/api-builder/api-builder-6.png",
     url: "/blog/api-builder-1/",
-  },
-  {
-    title: "How to automate story and image creation using AI - Part 1",
-    type: "Article",
-    typeColor: "rgb(237, 177, 30)",
-    imageUrl: "/img/blog-images/story-2.png",
-    url: "/blog/automate-story-creation-1/",
   },
 ];
 
