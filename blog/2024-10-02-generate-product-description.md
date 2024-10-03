@@ -79,3 +79,12 @@ Why struggle with mundane writing tasks when you can focus on what you do bestâ€
 ### Get Started Now
 
 Explore the capabilities of AI-Flow today and see how the "Generate Product Description" template can bring your products to life. Visit [AI-Flow](https://app.ai-flow.net/) to start your journey for free.
+
+---
+
+_Additional Resources_
+
+For more detailed information, refer to the following resources:
+
+- [Getting Started with AI-Flow](/blog/getting-started-with-ai-flow)
+- [Replicate Node](/blog/replicate-node)

@@ -48,6 +48,13 @@ const templatesData = [
     url: "/blog/generate-product-description/",
   },
   {
+    title: "Efficient Text Extraction from Scanned Documents with AI-Flow OCR",
+    type: "Template",
+    typeColor: "rgb(30 237 213)",
+    imageUrl: "/img/blog-images/ocr-workflow.png",
+    url: "/blog/text-extraction-with-ai-flow-ocr/",
+  },
+  {
     title: "Create Illustrated Short Children's Stories with AI",
     type: "Template",
     typeColor: "rgb(30 237 213)",
@@ -74,13 +81,6 @@ const templatesData = [
     typeColor: "rgb(30 237 213)",
     imageUrl: "/img/blog-images/summarize-doc-post.png",
     url: "/blog/ummarize-doc-post/",
-  },
-  {
-    title: "How to automate story and image creation using AI - Part 2",
-    type: "Template",
-    typeColor: "rgb(30 237 213)",
-    imageUrl: "/img/blog-images/story-2-1.png",
-    url: "/blog/automate-story-creation-2/",
   },
 ];
 
