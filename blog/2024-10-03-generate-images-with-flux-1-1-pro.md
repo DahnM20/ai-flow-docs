@@ -78,7 +78,7 @@ The difference is clear: FLUX 1.1 Pro generates a more realistic-looking tiger w
     </span>
 </div>
 
-### FLUX 1.1 Pro vs. Stable Diffusion 3
+### FLUX 1.1 Pro vs. Stable Diffusion 3 Large
 
 ![OCR Workflow with Amazon Textract](/img/blog-images/flux-1-1-3.png)
 
