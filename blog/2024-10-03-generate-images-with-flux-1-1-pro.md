@@ -27,7 +27,7 @@ tags:
 
 # FLUX 1.1 Pro: A Comprehensive Guide
 
-FLUX 1.1 Pro, the latest advancement in generative AI technology, is now available through the Replicate Node in AI-FLOW. In this guide, we'll explore how FLUX 1.1 Pro can revolutionize your projects, how to run it, and how it compares to other popular models like its predecessor, FLUX Pro, and Stable Diffusion 3.
+**FLUX 1.1 Pro**, the latest advancement in generative AI technology developed by **Black Forest Labs**, is now available through the Replicate Node in AI-FLOW. In this guide, we'll explore how FLUX 1.1 Pro can revolutionize your projects, how to run it, and how it compares to other popular models like its predecessor, FLUX Pro, and Stable Diffusion 3.
 
 ## Why Choose FLUX 1.1 Pro?
 
