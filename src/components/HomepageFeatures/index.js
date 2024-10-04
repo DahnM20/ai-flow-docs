@@ -62,6 +62,13 @@ const templatesData = [
     url: "/blog/create-short-childrens-stories/",
   },
   {
+    title: "Create Stunning Coloring Book Pages with AI",
+    type: "Template",
+    typeColor: "rgb(30 237 213)",
+    imageUrl: "/img/blog-images/template-coloring-book.png",
+    url: "/blog/creating-coloring-book-pages-with-ai-flow/",
+  },
+  {
     title: "Summarize Youtube Video with AI",
     type: "Template",
     typeColor: "rgb(30 237 213)",
