@@ -129,8 +129,16 @@ const config = {
             title: "POPULAR ARTICLES",
             items: [
               {
+                label: "Getting Started With AI-Flow",
+                href: "/blog/getting-started-with-ai-flow/",
+              },
+              {
                 label: "How to Build and Deploy AI Workflows Easily",
                 href: "/blog/how-to-build-and-deploy-ai-workflows/",
+              },
+              {
+                label: "How to Generate High-Quality Images with FLUX 1.1 Pro",
+                href: "/blog/generate-images-with-flux-1-1-pro/",
               },
               {
                 label: "Integrate and Automate AI Workflow with API Builder",
@@ -154,8 +162,12 @@ const config = {
             title: "LATEST UPDATES",
             items: [
               {
-                label: "Getting Started With AI-Flow",
-                href: "/blog/getting-started-with-ai-flow/",
+                label: "Generate SEO-Optimized Product Description with AI",
+                href: "/blog/generate-product-description/",
+              },
+              {
+                label: "Create Stunning Coloring Book Pages with AI",
+                href: "/blog/generate-product-description/",
               },
               {
                 label: "API Builder Nodes",

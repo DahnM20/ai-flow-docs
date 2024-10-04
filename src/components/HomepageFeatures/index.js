@@ -59,14 +59,7 @@ const templatesData = [
     type: "Template",
     typeColor: "rgb(30 237 213)",
     imageUrl: "/img/blog-images/template-short-child-story.png",
-    url: "/blog/summarize-doc-post/",
-  },
-  {
-    title: "Create Stunning Coloring Book Pages with AI",
-    type: "Template",
-    typeColor: "rgb(30 237 213)",
-    imageUrl: "/img/blog-images/template-coloring-book.png",
-    url: "/blog/creating-coloring-book-pages-with-ai-flow/",
+    url: "/blog/create-short-childrens-stories/",
   },
   {
     title: "Summarize Youtube Video with AI",
@@ -80,7 +73,7 @@ const templatesData = [
     type: "Template",
     typeColor: "rgb(30 237 213)",
     imageUrl: "/img/blog-images/summarize-doc-post.png",
-    url: "/blog/ummarize-doc-post/",
+    url: "/blog/summarize-doc-post/",
   },
 ];
 
