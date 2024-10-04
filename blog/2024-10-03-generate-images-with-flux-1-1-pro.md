@@ -95,6 +95,14 @@ For curiosity’s sake, here’s a comparison with prompt upsampling enabled:
 
 ![OCR Workflow with Amazon Textract](/img/blog-images/flux-1-1-4.png)
 
+By analyzing the outcome, we can infer what has been added during the upsampling process:
+
+First Image: The focus here is on the tiger's deep, unrealistic teal eyes, giving it a mythical quality. There is a new kind of brown texture on the rock, making it appear less perfect and more integrated into the environment. I also suspect that the upsampling added the large tree in the background.
+
+Second Image: In this version, the tiger's position appears more defined. I believe the upsampling introduced the waterfall in the background, as well as the silhouette of a mountain. Additionally, the area around the tiger's head is less cluttered, making it the focal point in the now more open space. The rock also features additional texture.
+
+In conclusion, prompt upsampling is a fascinating tool that can add significant detail, realism, and improved composition compared to a standard prompt used by someone less experienced. However, the downside is the unpredictability of the direction in which upsampling will take the image.
+
 ## Start Using FLUX 1.1 Pro in Your Workflows with AI-FLOW
 
 AI-FLOW is a powerful platform where you can connect multiple AI models seamlessly, automate processes, and build custom AI tools without extensive coding knowledge. Whether you’re automating content creation, experimenting with various AI models, or managing data, AI-FLOW has the tools you need to streamline your projects.
