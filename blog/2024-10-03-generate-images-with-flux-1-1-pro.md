@@ -25,11 +25,11 @@ tags:
   <meta property="og:image" content="https://docs.ai-flow.net/img/blog-images/flux-1-1.png"/>
 </head>
 
-## FLUX 1.1 Pro: A Comprehensive Guide
+# FLUX 1.1 Pro: A Comprehensive Guide
 
 FLUX 1.1 Pro, the latest advancement in generative AI technology, is now available through the Replicate Node in AI-FLOW. In this guide, we'll explore how FLUX 1.1 Pro can revolutionize your projects, how to run it, and how it compares to other popular models like its predecessor, FLUX Pro, and Stable Diffusion 3.
 
-### Why Choose FLUX 1.1 Pro?
+## Why Choose FLUX 1.1 Pro?
 
 FLUX 1.1 Pro is three times faster than FLUX Pro, offering significant improvements in image quality, prompt adherence, and diversity. It sets a new standard in AI-driven image creation, making it an excellent choice for both seasoned developers and beginners across a range of applications. FLUX 1.1 Pro is currently the best text-to-image model available.
 
