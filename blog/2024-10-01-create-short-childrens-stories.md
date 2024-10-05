@@ -11,11 +11,11 @@ tags: [AI-FLOW, Children's Literature, Storytelling, Illustrations]
   <meta name="twitter:title" content="Create Short Children's Stories with AI-Flow" />
   <meta name="twitter:description" content="Discover how to craft enchanting short children's stories with captivating illustrations using AI-Flow's powerful template." />
   <meta name="twitter:creator" content="@AIFlowApp"/>
-  <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-card-images//template-short-child-story.png"/>
+  <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-card-images/template-short-child-story.png"/>
   <meta name="twitter:image:alt" content="AI-Flow Children's Story Creation"/>
   <meta property="og:title" content="Create Short Children's Stories with AI-Flow"/>
   <meta property="og:description" content="Discover how to craft enchanting short children's stories with captivating illustrations using AI-Flow's powerful template."/>
-  <meta property="og:image" content="https://docs.ai-flow.net/img/blog-card-images//template-short-child-story.png"/>
+  <meta property="og:image" content="https://docs.ai-flow.net/img/blog-card-images/template-short-child-story.png"/>
 </head>
 
 # Generate Illustrated Short Children's Stories with AI
@@ -26,7 +26,7 @@ Are you captivated by the prospect of bringing magical children's stories to lif
 
 ## The Template in Focus
 
-The "Create a Short Children's Story with 5 Magical Illustrations" template is a standout feature within AI-Flow. It seamlessly blends creative storytelling with beautiful imagery, making it ideal for authors, educators, parents, and anyone passionate about children's literature. Here’s why this template is a must-try:
+The "Create a Short Children's Story with 5 Magical Illustrations" template is available for a quick setup in AI-Flow. It seamlessly blends creative storytelling with beautiful imagery, making it ideal for authors, educators, parents, and anyone passionate about children's literature. Here’s why this template is a must-try:
 
 1. **Automated Story Generation:**
 

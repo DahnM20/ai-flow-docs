@@ -34,7 +34,7 @@ Imagine you have a new product—a hydrating, nourishing shampoo infused with or
 
 **Step 1: Upload Your Product Image**
 
-Start by uploading a clear image of your product. For our example, you would upload a photo of the shampoo bottle. Here is the placeholder where you would insert an image:
+Start by uploading a clear image of your product. For our example, you would upload a photo of the shampoo bottle.
 
 **Step 2: Analyze the Image**
 
