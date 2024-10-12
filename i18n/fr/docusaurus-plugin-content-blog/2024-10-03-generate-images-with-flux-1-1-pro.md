@@ -63,18 +63,18 @@ La différence est claire : FLUX 1.1 Pro génère un tigre plus réaliste avec u
 
  <div class="flex flex-row w-[50%] justify-center">
     <span class="w-40 h-full object-cover">
-    <img src="../img/blog-images/flux-1-1-2.webp" alt="FLUX 1.1 Première Génération" />
+    <img src="/fr/img/blog-images/flux-1-1-2.webp" alt="FLUX 1.1 Première Génération" />
     </span>
     <span class="w-40 h-full object-cover">
-    <img src="../img/blog-images/flux-1-1-3.webp" alt="FLUX 1.1 Deuxième Génération" />
+    <img src="/fr/img/blog-images/flux-1-1-3.webp" alt="FLUX 1.1 Deuxième Génération" />
     </span>
 </div>
  <div class="flex flex-row w-[50%] justify-center">
     <span class="w-40 h-full object-cover">
-    <img src="../img/blog-images/flux-1.webp" alt="FLUX Pro Première Génération" />
+    <img src="/fr/img/blog-images/flux-1.webp" alt="FLUX Pro Première Génération" />
     </span>
     <span class="w-40 h-full object-cover">
-    <img src="../img/blog-images/flux-2.webp" alt="FLUX Pro Deuxième Génération" />
+    <img src="/fr/img/blog-images/flux-2.webp" alt="FLUX Pro Deuxième Génération" />
     </span>
 </div>
 

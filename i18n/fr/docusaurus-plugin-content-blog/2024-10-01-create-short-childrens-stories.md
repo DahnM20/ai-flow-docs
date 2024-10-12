@@ -61,10 +61,10 @@ Avec l'interface glisser-déposer d'AI-Flow, créer votre histoire illustrée po
 
  <div class="flex flex-row w-[50%] justify-center">
     <span class="w-40 h-full object-cover">
-    <img src="../img/blog-images/template-short-child-story-2.png" alt="Modèle Créer des Histoires Courtes pour Enfants" />
+    <img src="/fr/img/blog-images/template-short-child-story-2.png" alt="Modèle Créer des Histoires Courtes pour Enfants - Première image générée" />
     </span>
     <span class="w-40 h-full object-cover">
-    <img src="../img/blog-images/template-short-child-story-3.png" alt="Modèle Créer des Histoires Courtes pour Enfants" />
+    <img src="/fr/img/blog-images/template-short-child-story-3.png" alt="Modèle Créer des Histoires Courtes pour Enfants - Seconde image générée" />
     </span>
 </div>
 
