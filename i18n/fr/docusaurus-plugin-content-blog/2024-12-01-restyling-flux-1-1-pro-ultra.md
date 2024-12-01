@@ -1,6 +1,6 @@
 ---
 slug: restyling-flux-1-1-pro-ultra
-title: Changer le style d'une image - FLUX 1.1 Pro Ultra : Transformez vos images avec l'IA
+title: Changer le style d'une image avec FLUX 1.1 Pro Ultra - Transformez vos images avec l'IA
 authors: dahn
 description: Découvrez comment le template Restyling - FLUX 1.1 Pro Ultra peut révolutionner vos projets créatifs grâce à la transformation d'images par IA. Apprenez-en plus sur ses fonctionnalités, comparaisons et conseils d'intégration.
 tags:
