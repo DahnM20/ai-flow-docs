@@ -11,11 +11,11 @@ tags: [FLUX Fill Pro, Image Editing, Inpainting, AI Tools, Digital Art]
   <meta name="twitter:title" content="Edit Image with Inpainting - FLUX Fill Pro: A Comprehensive Guide" />
   <meta name="twitter:description" content="Explore FLUX Fill Pro for advanced image editing. Learn about its features, comparisons, and how to use it effectively." />
   <meta name="twitter:creator" content="@AIFlowApp"/>
-  <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-images/flux-fill-pro.png"/>
+  <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-images/edit-image-with-inpainting-flux-fill-pro-3.png"/>
   <meta name="twitter:image:alt" content="FLUX Fill Pro Image Editing"/>
   <meta property="og:title" content="Edit Image with Inpainting - FLUX Fill Pro: A Comprehensive Guide"/>
   <meta property="og:description" content="Enhance your image editing with FLUX Fill Pro. Discover its capabilities, comparisons, and integration tips."/>
-  <meta property="og:image" content="https://docs.ai-flow.net/img/blog-images/flux-fill-pro.png"/>
+  <meta property="og:image" content="https://docs.ai-flow.net/img/blog-images/edit-image-with-inpainting-flux-fill-pro-3.png"/>
 </head>
 
 # Edit Image with Inpainting - FLUX Fill Pro: A Comprehensive Guide
