@@ -42,7 +42,7 @@ Le modèle "Restyling - FLUX 1.1 Pro Ultra" est la dernière innovation en mati�
 
 Le modèle "Restyling - FLUX 1.1 Pro Ultra" est conçu pour transformer vos images en rendus artistiques époustouflants rapidement et efficacement. En s'appuyant sur des réseaux neuronaux de pointe, il combine des images d'entrée avec des invites textuelles pour créer des sorties stylisées en haute résolution. Cela en fait un choix idéal pour les artistes, les designers et les marketeurs cherchant à produire un contenu visuel unique.
 
-![Capture d'écran de Restyling - FLUX 1.1 Pro Ultra](/img/blog-images/article-name-screenshot.png)
+![Capture d'écran de Restyling - FLUX 1.1 Pro Ultra](/img/blog-images/restyling-flux-1-1-pro-ultra.png)
 
 ## Caractéristiques clés du modèle
 
