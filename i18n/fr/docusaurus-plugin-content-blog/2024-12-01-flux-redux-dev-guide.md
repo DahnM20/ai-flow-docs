@@ -34,7 +34,7 @@ Flux Redux Dev est un modèle innovant développé par Black Forest Labs pour cr
     <img src="/fr/img/blog-images/flux-redux-dev-guide-1.png" alt="Template Restyling - FLUX Redux - Base Image" />
     </span>
     <span class="w-40 h-full object-cover">
-    <img src="/fr/img/blog-images/flux-redux-dev-guide-3.png" alt="Template Restyling - FLUX Redux - Variation Image" />
+    <img src="/fr/img/blog-images/flux-redux-dev-guide-0.png" alt="Template Restyling - FLUX Redux - Variation Image" />
     </span>
 </div>
 

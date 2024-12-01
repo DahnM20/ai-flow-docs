@@ -25,7 +25,7 @@ tags:
   <meta property="og:image" content="https://docs.ai-flow.net/img/blog-images/edge-guided-image-creation-flux-canny-pro-5.png"/>
 </head>
 
-# Création d'images guidée par les contours avec Flux Canny Pro : Un guide complet**
+# Création d'images guidée par les contours avec Flux Canny Pro : Un guide complet
 
 Le modèle **Flux Canny Pro** est l'état de l'art en terme de création d'image guidée par contours. Créé par Black Forest Labs, ce modèle est conçu pour préserver l'intégrité structurelle des images tout en permettant des modifications créatives via des invites textuelles. Développé avec une technologie avancée de détection des contours, ce modèle est désormais accessible via un template dédié sur la plateforme AI-FLOW, offrant une précision et une flexibilité exceptionnelles pour les designers, développeurs et artistes.
 
@@ -68,8 +68,7 @@ Ce modèle est particulièrement bénéfique pour :
 - **Design d'intérieur** : Créer des variations sans altérer le cadre structurel.
 - **Cohérence de marque** : Assurer l'uniformité dans les campagnes créatives.
 - **Prototypage rapide** : Développer des designs rapidement pour des présentations clients.
-- **Changer le style d'une image**: Appliquer une nouvelle texture à une image existante. 
-
+- **Changer le style d'une image**: Appliquer une nouvelle texture à une image existante.
 
 <div class="flex flex-row w-[50%] justify-center">
     <span class="w-40 h-full object-cover">
@@ -80,10 +79,9 @@ Ce modèle est particulièrement bénéfique pour :
     </span>
 </div>
 
-
 ## Changement de style - Canny VS Redux (avec FLUX Pro 1.1 Ultra)
 
-Conne nous avons pu le voir, nous pouvons re-texturer une image avec FLUX Canny. 
+Conne nous avons pu le voir, nous pouvons re-texturer une image avec FLUX Canny.
 
 <div class="flex flex-row w-[50%] justify-center">
     <span class="w-40 h-full object-cover">
@@ -94,7 +92,7 @@ Conne nous avons pu le voir, nous pouvons re-texturer une image avec FLUX Canny.
     </span>
 </div>
 
-Cependant, dans certains cas, garder les contours peut-être limitant, et nous pouvons souhaiter plutôt avoir des résultats comme ceux ci-dessous. 
+Cependant, dans certains cas, garder les contours peut-être limitant, et nous pouvons souhaiter plutôt avoir des résultats comme ceux ci-dessous.
 
 <div class="flex flex-row w-[50%] justify-center">
     <span class="w-40 h-full object-cover">
@@ -106,7 +104,6 @@ Cependant, dans certains cas, garder les contours peut-être limitant, et nous p
 </div>
 
 Arriver à ces résultats nécessite un autre processus, vous pourrez en apprendre plus via cet article : [Changer le style d'une image avec FLUX 1.1 Pro Ultra](/blog/restyling-flux-1-1-pro-ultra)
-
 
 ## Commencer avec Flux Canny Pro dans AI-FLOW
 
