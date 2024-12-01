@@ -41,6 +41,35 @@ const smallArticlesData = [
 
 const templatesData = [
   {
+    title: "Restyling - FLUX 1.1 Pro Ultra - Transform Your Images with AI",
+    type: "Template",
+    typeColor: "rgb(30 237 213)",
+    imageUrl: "/img/blog-images/restyling-flux-1-1-pro-ultra.png",
+    url: "/blog/restyling-flux-1-1-pro-ultra/",
+  },
+  {
+    title: "Generate Image Variations with FLUX Redux Dev",
+    type: "Template",
+    typeColor: "rgb(30 237 213)",
+    imageUrl: "/img/blog-images/flux-redux-dev-guide-2.png",
+    url: "/blog/flux-redux-dev-guide/",
+  },
+  {
+    title: "Edit Image with AI - Inpainting - FLUX Fill Pro",
+    type: "Template",
+    typeColor: "rgb(30 237 213)",
+    imageUrl: "/img/blog-images/edit-image-with-inpainting-flux-fill-pro-3.png",
+    url: "/blog/edit-image-with-inpainting-flux-fill-pro/",
+  },
+  {
+    title: "Edge-Guided AI Image Creation with Flux Canny Pro",
+    type: "Template",
+    typeColor: "rgb(30 237 213)",
+    imageUrl:
+      "/img/blog-images/edge-guided-image-creation-flux-canny-pro-5.png",
+    url: "/blog/edge-guided-image-creation-flux-canny-pro/",
+  },
+  {
     title: "Generate SEO-Optimized Product Description with AI",
     type: "Template",
     typeColor: "rgb(30 237 213)",

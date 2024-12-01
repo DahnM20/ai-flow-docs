@@ -1,6 +1,6 @@
 ---
 slug: flux-redux-dev-guide
-title: Flux Redux Dev - A Comprehensive Guide to Image Generation
+title: Generate AI Image Variations with FLUX Redux Dev
 authors: dahn
 description: Discover how Flux Redux Dev can enhance your design projects with innovative image variations. This guide covers its features, comparisons with other tools, and tips for effective use.
 tags:
@@ -81,12 +81,11 @@ Restyling is also available through the FLUX Pro 1.1 Ultra, using Redux behind t
 
 To learn more, you can check this article : [Restyling with FLUX 1.1 Pro Ultra](/blog/restyling-flux-1-1-pro-ultra)
 
-
 ## Start Using Flux Redux Dev in Your Workflows with AI-FLOW
 
 AI-FLOW is a versatile platform that allows you to connect multiple AI models seamlessly, automate processes, and build custom AI tools without extensive coding knowledge. Whether you're automating content creation, experimenting with various AI models, or managing data, AI-FLOW provides the tools you need to streamline your projects.
 
-You can easily experiment with Flux Redux Dev by opening the "Image Variations" template in AI-FLOW. 
+You can easily experiment with Flux Redux Dev by opening the "Image Variations" template in AI-FLOW.
 
 ### Ready to Transform Your Projects with Flux Redux Dev?
 
