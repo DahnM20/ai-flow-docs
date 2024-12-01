@@ -1,6 +1,6 @@
 ---
 slug: edge-guided-image-creation-flux-canny-pro
-title: Edge-Guided Image Creation with Flux Canny Pro - A Comprehensive Guide
+title: Edge-Guided AI Image Creation with Flux Canny Pro - A Comprehensive Guide
 authors: dahn
 description: Discover how to use Flux Canny Pro for edge-guided image creation. This guide explores its features, advantages over traditional methods, and how to integrate it into your design workflows.
 tags:
@@ -19,17 +19,19 @@ tags:
   <meta property="og:image" content="https://docs.ai-flow.net/img/blog-images/edge-guided-image-creation-flux-canny-pro-5.png"/>
 </head>
 
-**Edge-Guided Image Creation with Flux Canny Pro: A Comprehensive Guide**
+# Edge-Guided Image Creation with Flux Canny Pro: A Comprehensive Guide
 
-The **Edge-Guided Image Creation - Flux Canny Pro** template is an innovative tool in image editing, designed to preserve the structural integrity of images while enabling creative modifications through text prompts. Developed with advanced edge detection technology, this template is now accessible via the AI-FLOW platform, offering exceptional precision and flexibility for designers, developers, and artists.
+FLUX Canny Pro is a state-of-the-art model for edge-guided image creation. Created by Black Forest Labs, this model is designed to preserve the structural integrity of images while enabling creative modifications through text prompts. 
+
+Developed with advanced edge detection technology, this model is now accessible via the AI-FLOW platform through a dedicated template, offering exceptional precision and flexibility for designers, developers, and artists.
 
 ## Why Choose Flux Canny Pro?
 
-Flux Canny Pro excels by providing precise control over the visual composition of an image. By utilizing canny edge detection, it ensures that the core structure of an image remains intact, even as creative changes are applied. This makes it an ideal choice for professionals in fields like interior design, where maintaining the original framework is crucial.
+Flux Canny Pro excels by providing precise control over the visual composition of an image. By utilizing canny edge detection, it ensures that the core structure of an image remains intact, even as creative changes are applied. This makes it an ideal choice for professionals in fields like interior design for example, where maintaining the original framework is crucial.
 
 ![Edge-Guided Image Creation with Flux Canny Pro](/img/blog-images/edge-guided-image-creation-flux-canny-pro-5.png)
 
-## How Flux Canny Pro Works
+## How Flux Canny Works
 
 The template leverages the robust capabilities of FLUX.1 Canny Pro models and Replicate to deliver high-quality image manipulation. Here's how it works:
 
@@ -37,15 +39,27 @@ The template leverages the robust capabilities of FLUX.1 Canny Pro models and Re
 - **Configuration Options**: Additional parameters include guidance levels, megapixel sizing, inference steps, output quantity and format, quality settings, and optional seeding for reproducibility.
 - **Output**: The result is a reimagined version of the input image that adheres to the text prompt while maintaining the defined structure. For instance, transforming a futuristic white robot into a golden version without losing its essential features.
 
-## Comparing Flux Canny Pro to Traditional Methods
 
-Traditional image editing methods often require manual reformatting, which can be time-consuming and may compromise the original composition. Flux Canny Pro, on the other hand, enhances both efficiency and creative control, significantly reducing manual efforts while ensuring consistent branding or design.
+
 
 ### Key Advantages
 
 - **Structural Preservation**: Maintains the original composition, allowing for consistent branding or design.
 - **Text-Guided Editing**: Facilitates rapid prototyping and visualization with seamless text-guided modifications.
 - **High-Quality Outputs**: Offers customizable parameters for flexibility and precision in image generation.
+
+<div class="flex flex-row w-[50%] justify-center">
+    <span class="w-40 h-full object-cover">
+    <img src="/img/blog-images/edge-guided-image-creation-flux-canny-pro-4.png" alt="Template Edge-guided Generation - Transform Your Images with AI - robot" />
+    </span>
+    <span class="w-40 h-full object-cover">
+    <img src="/img/blog-images/edge-guided-image-creation-flux-canny-pro-1.png" alt="Template Edge-guided Generation - Transform Your Images with AI - robot v2" />
+    </span>
+    <span class="w-40 h-full object-cover">
+    <img src="/img/blog-images/edge-guided-image-creation-flux-canny-pro-2.png" alt="Template Edge-guided Generation - Transform Your Images with AI - robot v3" />
+    </span>
+</div>
+
 
 ## Potential Use Cases
 
@@ -54,6 +68,42 @@ This template is particularly beneficial for:
 - **Interior Design**: Create variations without altering the structural framework.
 - **Brand Consistency**: Ensure uniformity in creative campaigns.
 - **Rapid Prototyping**: Develop designs quickly for client presentations.
+- **Changing Image Style**: Create a new version of an image with a new texture. 
+
+<div class="flex flex-row w-[50%] justify-center">
+    <span class="w-40 h-full object-cover">
+    <img src="/img/blog-images/edge-guided-image-creation-flux-canny-pro-3.jpg" alt="Template Edge-guided Generation - Transform Your Images with AI - interior" />
+    </span>
+    <span class="w-40 h-full object-cover">
+    <img src="/img/blog-images/edge-guided-image-creation-flux-canny-pro-0.png" alt="Template Edge-guided Generation - Transform Your Images with AI - interior v2" />
+    </span>
+</div>
+
+## Restyling - Canny VS Redux (with FLUX Pro 1.1 Ultra)
+
+As we can see, we can achieve restyling through retexturing with FLUX Canny. 
+
+<div class="flex flex-row w-[50%] justify-center">
+    <span class="w-40 h-full object-cover">
+      <img src="/img/blog-images/restyling-flux-1-1-pro-ultra-4.png" alt="Template Edge-guided Generation - Transform Your Images with AI - robot v2" />
+    </span>
+    <span class="w-40 h-full object-cover">
+    <img src="/img/blog-images/edge-guided-bonus.png" alt="Template Edge-guided Generation - Transform Your Images with AI - robot" />
+    </span>
+</div>
+
+However, sometimes, keeping the edges is a bottleneck in the restyling process, and we may want results like these :
+
+<div class="flex flex-row w-[50%] justify-center">
+    <span class="w-40 h-full object-cover">
+    <img src="/img/blog-images/restyling-flux-1-1-pro-ultra-2.png" alt="Template Restyling - FLUX 1.1 Pro Ultra - Transform Your Images with AI - cat anime artwork" />
+    </span>
+    <span class="w-40 h-full object-cover">
+    <img src="/img/blog-images/restyling-flux-1-1-pro-ultra-3.jpg" alt="Template Restyling - FLUX 1.1 Pro Ultra - Transform Your Images with AI - cat traditionnal ink" />
+    </span>
+</div>
+
+This is achieved through another process using others FLUX models, to learn more, you can check this article : [Restyling with FLUX 1.1 Pro Ultra](/blog/restyling-flux-1-1-pro-ultra)
 
 ## Getting Started with Flux Canny Pro in AI-FLOW
 

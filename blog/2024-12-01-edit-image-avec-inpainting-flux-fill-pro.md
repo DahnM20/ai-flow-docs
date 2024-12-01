@@ -47,13 +47,16 @@ The FLUX Fill Pro template is designed to offer unmatched inpainting capabilitie
 
 Choosing the right inpainting tool involves understanding how it measures up to other available options. Let’s explore how FLUX Fill Pro outperforms its competitors:
 
-### FLUX Fill Pro vs. Ideogram 2.0
+*FLUX Fill Pro vs. Ideogram 2.0*
 
 FLUX Fill Pro offers superior efficiency and produces more realistic modifications compared to Ideogram 2.0. Its ability to handle complex image edits with ease makes it a preferred choice for professionals seeking high-quality results.
 
-### FLUX Fill Pro vs. AlimamaCreative’s FLUX-Controlnet-Inpainting
+*FLUX Fill Pro vs. AlimamaCreative’s FLUX-Controlnet-Inpainting*
 
 While both models are designed for inpainting, FLUX Fill Pro stands out with its advanced performance and seamless integration capabilities. It consistently delivers edits that are indistinguishable from the original image, setting a new standard in the industry.
+
+
+[Source - Black Forest Labs Article and Benchmark](https://blackforestlabs.ai/flux-1-tools/)
 
 ## Getting Started with FLUX Fill Pro template
 
@@ -80,11 +83,11 @@ FLUX Fill Pro is versatile and can be used in various scenarios, including:
 
 AI-FLOW is a robust platform that allows you to connect multiple AI models seamlessly, automate processes, and build custom AI tools without extensive coding knowledge. Whether you’re automating content creation, experimenting with various AI models, or managing data, AI-FLOW has the tools you need to streamline your projects.
 
-You can easily experiment with FLUX Fill Pro by using the Replicate Node in AI-FLOW. Simply drag the node into your workflow and start editing images with unparalleled precision and speed.
+You can easily experiment with FLUX Fill Pro by loading the "Edit Image with Inpainting" template in AI-Flow. 
 
-Ready to Transform Your Image Editing Projects with FLUX Fill Pro?
+### Ready to Transform Your Projects with Flux Fill Pro?
 
-Get started for free and explore the potential of FLUX Fill Pro by visiting AI-Flow App. Unleash your creativity and take your projects to the next level with the power of AI-driven image editing!
+Get started for free and explore the potential of Flux Fill Pro by visiting [AI-Flow App](https://app.ai-flow.net/). Unleash your creativity and take your projects to the next level with the power of AI-driven image generation!
 
 ---
 
@@ -92,5 +95,5 @@ _Additional Resources_
 
 For more detailed information, refer to the following resources:
 
-- Getting Started with AI-Flow
-- Replicate Node
+- [Getting Started with AI-Flow](/blog/getting-started-with-ai-flow)
+- [Replicate Node](/blog/replicate-node)

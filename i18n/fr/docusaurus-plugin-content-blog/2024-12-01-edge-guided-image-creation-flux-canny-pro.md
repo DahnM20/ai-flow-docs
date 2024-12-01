@@ -1,6 +1,6 @@
 ---
 slug: edge-guided-image-creation-flux-canny-pro
-title: Création d'Images Guidée par Contours avec Flux Canny Pro - Un Guide Complet
+title: Création d'Images IA Guidée par Contours avec Flux Canny Pro - Un Guide Complet
 authors: dahn
 description: Découvrez comment utiliser Flux Canny Pro pour la création d'images guidée par contours. Ce guide explore ses fonctionnalités, ses avantages par rapport aux méthodes traditionnelles, et comment l'intégrer dans vos flux de travail de conception.
 tags:
@@ -25,9 +25,9 @@ tags:
   <meta property="og:image" content="https://docs.ai-flow.net/img/blog-images/edge-guided-image-creation-flux-canny-pro-5.png"/>
 </head>
 
-**Création d'images guidée par les contours avec Flux Canny Pro : Un guide complet**
+# Création d'images guidée par les contours avec Flux Canny Pro : Un guide complet**
 
-Le modèle **Création d'images guidée par les contours - Flux Canny Pro** est un outil innovant dans l'édition d'images, conçu pour préserver l'intégrité structurelle des images tout en permettant des modifications créatives via des invites textuelles. Développé avec une technologie avancée de détection des contours, ce modèle est désormais accessible via la plateforme AI-FLOW, offrant une précision et une flexibilité exceptionnelles pour les designers, développeurs et artistes.
+Le modèle **Flux Canny Pro** est l'état de l'art en terme de création d'image guidée par contours. Créé par Black Forest Labs, ce modèle est conçu pour préserver l'intégrité structurelle des images tout en permettant des modifications créatives via des invites textuelles. Développé avec une technologie avancée de détection des contours, ce modèle est désormais accessible via un template dédié sur la plateforme AI-FLOW, offrant une précision et une flexibilité exceptionnelles pour les designers, développeurs et artistes.
 
 ## Pourquoi choisir Flux Canny Pro ?
 
@@ -43,15 +43,23 @@ Le modèle exploite les capacités robustes des modèles FLUX.1 Canny Pro et Rep
 - **Options de configuration** : Les paramètres supplémentaires incluent les niveaux de guidage, la taille en mégapixels, les étapes d'inférence, la quantité et le format de sortie, les réglages de qualité, et un semis optionnel pour la reproductibilité.
 - **Sortie** : Le résultat est une version réimaginée de l'image d'entrée qui adhère à l'invite textuelle tout en maintenant la structure définie. Par exemple, transformer un robot blanc futuriste en une version dorée sans perdre ses caractéristiques essentielles.
 
-## Comparaison de Flux Canny Pro avec les méthodes traditionnelles
-
-Les méthodes traditionnelles d'édition d'images nécessitent souvent un reformatage manuel, ce qui peut être chronophage et compromettre la composition originale. Flux Canny Pro, en revanche, améliore à la fois l'efficacité et le contrôle créatif, réduisant considérablement les efforts manuels tout en assurant une cohérence de marque ou de design.
-
 ### Principaux avantages
 
 - **Préservation structurelle** : Maintient la composition originale, permettant une cohérence de marque ou de design.
 - **Édition guidée par texte** : Facilite le prototypage rapide et la visualisation avec des modifications guidées par texte.
 - **Sorties de haute qualité** : Offre des paramètres personnalisables pour une flexibilité et une précision dans la génération d'images.
+
+<div class="flex flex-row w-[50%] justify-center">
+    <span class="w-40 h-full object-cover">
+    <img src="/fr/img/blog-images/edge-guided-image-creation-flux-canny-pro-4.png" alt="Template Edge-guided Generation - Transform Your Images with AI - robot" />
+    </span>
+    <span class="w-40 h-full object-cover">
+    <img src="/fr/img/blog-images/edge-guided-image-creation-flux-canny-pro-1.png" alt="Template Edge-guided Generation - Transform Your Images with AI - robot v2" />
+    </span>
+    <span class="w-40 h-full object-cover">
+    <img src="/fr/img/blog-images/edge-guided-image-creation-flux-canny-pro-2.png" alt="Template Edge-guided Generation - Transform Your Images with AI - robot v3" />
+    </span>
+</div>
 
 ## Cas d'utilisation potentiels
 
@@ -60,6 +68,45 @@ Ce modèle est particulièrement bénéfique pour :
 - **Design d'intérieur** : Créer des variations sans altérer le cadre structurel.
 - **Cohérence de marque** : Assurer l'uniformité dans les campagnes créatives.
 - **Prototypage rapide** : Développer des designs rapidement pour des présentations clients.
+- **Changer le style d'une image**: Appliquer une nouvelle texture à une image existante. 
+
+
+<div class="flex flex-row w-[50%] justify-center">
+    <span class="w-40 h-full object-cover">
+    <img src="/fr/img/blog-images/edge-guided-image-creation-flux-canny-pro-3.jpg" alt="Template Edge-guided Generation - Transform Your Images with AI - interior" />
+    </span>
+    <span class="w-40 h-full object-cover">
+    <img src="/fr/img/blog-images/edge-guided-image-creation-flux-canny-pro-0.png" alt="Template Edge-guided Generation - Transform Your Images with AI - interior v2" />
+    </span>
+</div>
+
+
+## Changement de style - Canny VS Redux (avec FLUX Pro 1.1 Ultra)
+
+Conne nous avons pu le voir, nous pouvons re-texturer une image avec FLUX Canny. 
+
+<div class="flex flex-row w-[50%] justify-center">
+    <span class="w-40 h-full object-cover">
+      <img src="/fr/img/blog-images/restyling-flux-1-1-pro-ultra-4.png" alt="Template Edge-guided Generation - Transform Your Images with AI - robot v2" />
+    </span>
+    <span class="w-40 h-full object-cover">
+    <img src="/fr/img/blog-images/edge-guided-bonus.png" alt="Template Edge-guided Generation - Transform Your Images with AI - robot" />
+    </span>
+</div>
+
+Cependant, dans certains cas, garder les contours peut-être limitant, et nous pouvons souhaiter plutôt avoir des résultats comme ceux ci-dessous. 
+
+<div class="flex flex-row w-[50%] justify-center">
+    <span class="w-40 h-full object-cover">
+    <img src="/fr/img/blog-images/restyling-flux-1-1-pro-ultra-2.png" alt="Template Restyling - FLUX 1.1 Pro Ultra - Transform Your Images with AI - cat anime artwork" />
+    </span>
+    <span class="w-40 h-full object-cover">
+    <img src="/fr/img/blog-images/restyling-flux-1-1-pro-ultra-3.jpg" alt="Template Restyling - FLUX 1.1 Pro Ultra - Transform Your Images with AI - cat traditionnal ink" />
+    </span>
+</div>
+
+Arriver à ces résultats nécessite un autre processus, vous pourrez en apprendre plus via cet article : [Changer le style d'une image avec FLUX 1.1 Pro Ultra](/blog/restyling-flux-1-1-pro-ultra)
+
 
 ## Commencer avec Flux Canny Pro dans AI-FLOW
 
