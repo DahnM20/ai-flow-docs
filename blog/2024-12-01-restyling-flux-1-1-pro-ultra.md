@@ -27,7 +27,7 @@ tags:
 
 # Restyling - FLUX 1.1 Pro Ultra: Transform Your Images with AI
 
-The "Restyling - FLUX 1.1 Pro Ultra" template is the using the latest innovation in AI-driven image transformation developed by Black Forest Labs and powered by Replicate. This guide explores how this template can revolutionize your creative projects, how to use it effectively, and how it stands out from other image styling tools.
+The "Restyling - FLUX 1.1 Pro Ultra" template is using the latest innovation in AI-driven image transformation, the FLUX 1.1 Pro Ultra model developed by Black Forest Labs. This guide explores how this template can revolutionize your creative projects, how to use it effectively, and how it stands out from other image styling tools.
 
 <div class="flex flex-row w-[50%] justify-center">
     <span class="w-40 h-full object-cover">
