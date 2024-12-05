@@ -40,7 +40,7 @@ Avec la sortie du **modèle MiniMax Video-01** dans AI-FLOW, vous pouvez désorm
 
 ## Présentation du modèle MiniMax Video-01
 
-Le modèle MiniMax Video-01 est conçu pour générer des vidéos de six secondes en un temps remarquablement court — le traitement vidéo prend souvent seulement 3 à 5 secondes. Sur la plateforme AI-FLOW, ce modèle est accessible via le nœud Replicate, ou vous pouvez commencer avec le template dédié.
+Le modèle MiniMax Video-01 est conçu pour générer des vidéos de six secondes en un temps court — le traitement vidéo prend souvent 3 à 5 minutes. Sur la plateforme AI-FLOW, ce modèle est accessible via le nœud Replicate, ou vous pouvez commencer avec le template dédié.
 
 MiniMax Video-01 offre une excellente qualité vidéo, une réactivité aux descriptions d'entrée et une efficacité. C'est un choix idéal pour les marketeurs, les créateurs de contenu, les développeurs et les data scientists qui souhaitent créer rapidement du contenu multimédia engageant.
 
