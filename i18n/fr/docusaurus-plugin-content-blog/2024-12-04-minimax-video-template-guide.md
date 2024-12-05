@@ -18,11 +18,11 @@ tags:
   <meta name="twitter:title" content="Transformez Vos Projets Vidéo avec le Modèle Vidéo MiniMax" />
   <meta name="twitter:description" content="Explorez le Modèle Vidéo MiniMax pour une création vidéo efficace et de haute qualité. Découvrez ses fonctionnalités, son utilisation, et comment il se compare aux méthodes traditionnelles." />
   <meta name="twitter:creator" content="@AIFlowApp"/>
-  <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-images/minimax-video-template.png"/>
+  <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-images/minimax-video-template-guide-3.png"/>
   <meta name="twitter:image:alt" content="Modèle Vidéo MiniMax en Action"/>
   <meta property="og:title" content="Transformez Vos Projets Vidéo avec le Modèle Vidéo MiniMax"/>
   <meta property="og:description" content="Découvrez comment le Modèle Vidéo MiniMax peut améliorer vos projets vidéo avec une efficacité et une qualité pilotées par l'IA. Découvrez ses fonctionnalités et des conseils d'intégration."/>
-  <meta property="og:image" content="https://docs.ai-flow.net/img/blog-images/minimax-video-template.png"/>
+  <meta property="og:image" content="https://docs.ai-flow.net/img/blog-images/minimax-video-template-guide-3.png"/>
 </head>
 
 Avec la sortie du **modèle MiniMax Video-01** dans AI-FLOW, vous pouvez désormais produire des vidéos époustouflantes rapidement et facilement. Ce guide explore comment ce puissant modèle peut transformer vos projets vidéo, comment l'utiliser efficacement et comment il se compare aux méthodes traditionnelles de production vidéo.

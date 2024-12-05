@@ -18,11 +18,11 @@ tags:
   <meta name="twitter:title" content="Transform Your Video Projects with the MiniMax Video Template" />
   <meta name="twitter:description" content="Explore the MiniMax Video Template for efficient, high-quality video creation. Learn about its features, usage, and how it compares to traditional methods." />
   <meta name="twitter:creator" content="@AIFlowApp"/>
-  <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-images/minimax-video-template.png"/>
+  <meta name="twitter:image" content="https://docs.ai-flow.net/img/blog-images/minimax-video-template-guide-3.png"/>
   <meta name="twitter:image:alt" content="MiniMax Video Template in Action"/>
   <meta property="og:title" content="Transform Your Video Projects with the MiniMax Video Template"/>
   <meta property="og:description" content="Learn how the MiniMax Video Template can enhance your video projects with AI-driven efficiency and quality. Discover its features and integration tips."/>
-  <meta property="og:image" content="https://docs.ai-flow.net/img/blog-images/minimax-video-template.png"/>
+  <meta property="og:image" content="https://docs.ai-flow.net/img/blog-images/minimax-video-template-guide-3.png"/>
 </head>
 
 Creating high-quality videos has traditionally been a time-consuming and resource-intensive process. With the release of the **Generate Video with MiniMax Video-01 Template** in AI-FLOW, you can now produce stunning videos quickly and easily. This guide explores how this powerful template can transform your video projects, how to use it effectively, and how it compares to traditional video production methods.
