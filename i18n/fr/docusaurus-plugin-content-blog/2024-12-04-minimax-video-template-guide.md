@@ -148,4 +148,4 @@ _Ressources supplémentaires_
 Pour plus d'informations détaillées, consultez les ressources suivantes :
 
 - [Commencer avec AI-FLOW](/blog/getting-started-with-ai-flow)
-- [Modèle vidéo MiniMax](/blog/minimax-video-template)
+- [Nœud Replicate](/blog/replicate-node)
