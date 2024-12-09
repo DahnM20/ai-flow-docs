@@ -116,11 +116,11 @@ Le résultat est convaincant, bien que le début soit un peu abrupt. Cela peut �
     </span>
 </div>
 
-Voici un petit exemple de ce qui se passe lorsque le prompt est trop ambitieux :
+<!-- Voici un petit exemple de ce qui se passe lorsque le prompt est trop ambitieux :
 
 <video controls autoplay loop class="w-[300px] h-auto object-cover" alt="Prompt trop ambitieux">
     <source src="/fr/img/blog-images/minimax-video-template-guide-8.mp4" type="video/mp4"/>
-</video>
+</video> -->
 
 ## Cas d'utilisation potentiels
 

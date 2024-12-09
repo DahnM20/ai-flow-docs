@@ -116,11 +116,11 @@ The result is convincing, although the beginning is a bit rough. This may be bec
     </span>
 </div>
 
-Here's a small example of what happens when the prompt is overly ambitious:
+<!-- Here's a small example of what happens when the prompt is overly ambitious:
 
 <video controls autoPlay loop class="w-[300px] h-auto object-cover" alt="Template Minimax - Overly Ambitious Prompt">
     <source src="/img/blog-images/minimax-video-template-guide-8.mp4" type="video/mp4"/>
-</video>
+</video> -->
 
 ## Potential Use Cases
 
