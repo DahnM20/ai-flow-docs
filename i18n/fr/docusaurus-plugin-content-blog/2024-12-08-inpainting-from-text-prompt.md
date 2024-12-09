@@ -25,9 +25,9 @@ tags:
   <meta property="og:image" content="https://docs.ai-flow.net/img/blog-images/programmatic-inpainting-11.png"/>
 </head>
 
-L’outil **"Inpainting from Text Prompt"** est un modèle puissant désormais disponible dans l'application AI-FLOW. Ce guide vous expliquera comment cet outil peut révolutionner vos tâches de retouche d'images, comment l'utiliser efficacement et le comparer à d'autres méthodes disponibles dans l'application.
+L’outil **"Inpainting from Text Prompt"** est un template puissant désormais disponible dans l'application AI-FLOW. Ce guide vous expliquera comment cet outil peut révolutionner vos tâches de retouche d'images, comment l'utiliser efficacement et le comparer à d'autres méthodes disponibles dans l'application.
 
-## Pourquoi Choisir le Modèle Inpainting from Text Prompt ?
+## Pourquoi Choisir le Template Inpainting from Text Prompt ?
 
 Cet outil combine la puissance de **Grounded SAM** et **FLUX Fill Pro** pour offrir précision et flexibilité dans l’édition d’images basée sur le texte. Il permet de modifier des images de manière fluide à l’aide de simples invites textuelles, ce qui en fait un choix idéal pour les designers, artistes numériques, marketeurs et développeurs. Que vous soyez professionnel expérimenté ou débutant, cet outil simplifie les tâches complexes de retouche d’images, vous faisant gagner du temps et des efforts.
 
@@ -35,9 +35,9 @@ Cet outil combine la puissance de **Grounded SAM** et **FLUX Fill Pro** pour off
 
 ## Comment Cela Fonctionne
 
-L’outil **Inpainting from Text Prompt** s’appuie sur des modèles avancés d’IA pour produire des résultats de haute qualité :
+Le template **Inpainting from Text Prompt** s’appuie sur des modèles avancés d’IA pour produire des résultats de haute qualité :
 
-- **Grounded SAM** : Propose des solutions robustes pour les tâches de masquage complexes en générant des masques à partir d’invites textuelles. Grounding DINO agit comme détecteur sans apprentissage préalable, créant des boîtes englobantes précises et des étiquettes basées sur un texte libre.
+- **Grounded SAM** : Propose des solutions robustes pour les tâches de masquage complexes en générant des masques à partir d’invites textuelles.
 
 <div class="flex flex-row justify-center gap-4 w-full md:w-[50%]">
     <span class="flex flex-1 justify-center items-center">
@@ -69,7 +69,24 @@ L’outil **Inpainting from Text Prompt** s’appuie sur des modèles avancés d
 
 La sélection de masques générée par **Grounded SAM** est très précise et identifie aisément les éléments clés. Cependant, cette précision peut limiter la flexibilité pour redimensionner ou remodeler des objets. Par exemple, dans le cas d’une armure, l’outil conserve la forme originale, laissant parfois des traces visibles comme des vêtements en arrière-plan.
 
-Pour de meilleurs résultats, utilisez cet outil pour des modifications qui respectent la forme du conteneur original, comme retexturer ou recolorer un objet, par exemple ce t-shirt :
+Pour ajuster le comportement du masque, vous pouvez expérimenter avec le paramètre "adjustment_factor" de grounded_sam. Une valeur positive dilatera le masque, tandis qu'une valeur négative l'érodera.
+
+Ci-dessous, deux résultats avec un adjustment_factor de 50 :
+
+<div class="flex flex-row justify-center gap-4 w-full md:w-[50%]">
+    <span class="flex flex-1 justify-center items-center">
+        <img src="/fr/img/blog-images/programmatic-inpainting-20.jpg" alt="AI-FLOW Template - Base Image" class="w-full max-w-[468px] h-auto object-cover"/>
+    </span>
+    <span class="flex flex-1 justify-center items-center">
+        <img src="/fr/img/blog-images/programmatic-inpainting-21.jpg" alt="AI-FLOW Template - Base Image" class="w-full max-w-[468px] h-auto object-cover"/>
+    </span>
+</div>
+
+Comme on peut le voir, le masque plus grand semble permettre au modèle FLUX Fill d'utiliser l'espace de manière plus efficace. Il n'y a plus de traces de vêtements visibles.
+
+---
+
+Vous également pouvez utiliser cet outil pour des modifications qui respectent la forme du conteneur original, comme retexturer ou recolorer un objet, par exemple ce t-shirt :
 
 <div class="flex flex-row justify-center gap-4 w-full md:w-[50%]">
     <span class="flex flex-1 justify-center items-center">
@@ -83,18 +100,18 @@ Pour de meilleurs résultats, utilisez cet outil pour des modifications qui resp
     </span>
 </div>
 
-Cette solution programmatique convient mieux pour l'édition par lots de fichiers similaires ayant des formes de conteneur cohérentes, plutôt que pour des modifications individuelles complexes, comme altérer une armure dorée.
+Cette solution programmatique convient mieux pour l'édition par lots de fichiers similaires ayant des formes de conteneur cohérentes, plutôt que pour des modifications individuelles complexes.
 
 ### Entrées et Sorties
 
-- **Entrées** : Fichiers d’images, invites textuelles pour la génération et le réglage de masques. Expérimentez les paramètres de "guidage" pour optimiser les résultats.
+- **Entrées** : Fichiers d’images, invites textuelles pour la génération et le réglage de masques. Expérimentez avec le paramètre de "guidance" pour optimiser les résultats.
 - **Sorties** : Images modifiées avec des changements intégrés de manière fluide tout en conservant la qualité de la photo originale.
 
-![Capture d'écran de l'outil Inpainting from Text Prompt V2](/img/blog-images/programmatic-inpainting-5.png)
+![Capture d'écran de l'outil Inpainting from Text Prompt V2](/img/blog-images/programmatic-inpainting-22.png)
 
 ## Cas d’Usage Potentiels
 
-La polyvalence de l’outil "Inpainting from Text Prompt" le rend inestimable dans divers scénarios :
+La polyvalence de l’outil "Inpainting from Text Prompt" le rend utile dans divers scénarios :
 
 - **Designers** : Modifier facilement des images de produits pour le commerce en ligne.
 - **Marketeurs** : Personnaliser des visuels pour des campagnes tout en respectant l’identité de la marque.
@@ -102,9 +119,9 @@ La polyvalence de l’outil "Inpainting from Text Prompt" le rend inestimable da
 
 ## Méthodes Alternatives
 
-Le **StabilityAI Node** propose des modèles "Rechercher et Remplacer" et "Rechercher et Recolorer" qui produisent des résultats similaires. Bien que ces modèles ne permettent pas de vérifier directement les masques, ils excellent dans les petites modifications et offrent un paramètre pour "agrandir" les masques, permettant ainsi de remplacer un objet par un plus grand, au risque de modifications inattendues.
+Le **Noeud StabilityAI** propose des modèles "Rechercher et Remplacer" et "Rechercher et Recolorer" qui produisent des résultats similaires. Bien que ces modèles ne permettent pas de vérifier directement les masques, ils excellent dans les modifications et offrent un paramètre pour "agrandir" les masques, permettant ainsi de remplacer un objet par un plus grand, au risque de modifications inattendues.
 
-Voici un exemple avec l’armure :
+Voici un exemple avec l’armure, la modification s'intègre moins bien qu'avec FLUX Fill, mais je me suis contenté d'un prompt basique. En revanche, la forme est bonne. Pour chaque exemple j'ai laissé le paramètre "grow" à 3.
 
 <div class="flex flex-row justify-center gap-4 w-full md:w-[50%]">
     <span class="flex flex-1 justify-center items-center">
@@ -129,13 +146,13 @@ Et un exemple de t-shirt :
     </span>
 </div>
 
-Pour utiliser cette alternative, sélectionnez le modèle **"Rechercher et Remplacer"** dans l’application, ou utilisez directement le StabilityAI Node.
+Pour utiliser cette alternative, sélectionnez le template **"Rechercher et Remplacer"** dans l’application, ou utilisez directement le StabilityAI Node.
 
 ![Capture d'écran de l'outil Inpainting from Text Prompt V3](/img/blog-images/programmatic-inpainting-14.png)
 
 ### Prêt à Améliorer Votre Expérience de Retouche d’Images ?
 
-Avec AI-FLOW, intégrez cet outil dans vos flux de travail, automatisez des processus, et créez des outils IA sur mesure sans expertise approfondie en programmation. Explorez le potentiel de l’outil **"Inpainting from Text Prompt"** dès aujourd’hui en visitant [AI-FLOW App](https://app.ai-flow.net/). Libérez votre créativité et améliorez vos projets grâce à la retouche d'images assistée par IA !
+Avec AI-FLOW, intégrez cet outil dans vos flux de travail, automatisez des processus, et créez des outils IA sur mesure sans expertise approfondie en programmation. Explorez le potentiel du template **"Inpainting from Text Prompt"** dès aujourd’hui en visitant [AI-FLOW App](https://app.ai-flow.net/). Libérez votre créativité et améliorez vos projets grâce à la retouche d'images assistée par IA !
 
 ---
 
