@@ -1,5 +1,5 @@
 ---
-slug: generate-svg-avec-recraft-v3-svg
+slug: generate-svg-with-recraft-v3-svg
 title: Générer des Graphiques Vectoriels avec l'IA - Recraft V3 SVG - Guide Complet
 authors: dahn
 description: Découvrez comment le modèle "Generate SVG" d'AI-FLOW, propulsé par Recraft V3 SVG, permet de créer des images vectorielles époustouflantes en quelques secondes—gagnez du temps, stimulez votre créativité et redéfinissez les flux de travail traditionnels en design.
