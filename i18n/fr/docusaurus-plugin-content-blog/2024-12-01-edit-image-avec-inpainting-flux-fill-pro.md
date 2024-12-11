@@ -1,5 +1,5 @@
 ---
-slug: edit-image-avec-inpainting-flux-fill-pro
+slug: edit-image-with-inpainting-flux-fill-pro
 title: Modifier une Image avec Inpainting - FLUX Fill Pro - Un Guide Complet
 authors: dahn
 description: Découvrez comment améliorer vos projets d'édition d'images avec FLUX Fill Pro. Ce guide couvre ses fonctionnalités, des comparaisons avec d'autres solutions d'inpainting, et des conseils pour une utilisation efficace.
@@ -55,7 +55,6 @@ FLUX Fill Pro offre une efficacité supérieure et produit des modifications plu
 
 Bien que les deux modèles soient conçus pour l'inpainting, FLUX Fill Pro se distingue par ses performances avancées et ses capacités d'intégration transparente. Il délivre constamment des modifications indiscernables de l'image originale, établissant une nouvelle norme dans l'industrie.
 
-
 [Source - Black Forest Labs Article et Benchmark](https://blackforestlabs.ai/flux-1-tools/)
 
 ## Commencer avec FLUX Fill Pro
@@ -83,7 +82,7 @@ FLUX Fill Pro est polyvalent et peut être utilisé dans divers scénarios, nota
 
 AI-FLOW est une plateforme robuste qui vous permet de connecter plusieurs modèles d'IA de manière transparente, d'automatiser des processus, et de créer des outils d'IA personnalisés sans connaissances approfondies en codage. Que vous automatisiez la création de contenu, expérimentiez avec divers modèles d'IA, ou gériez des données, AI-FLOW dispose des outils nécessaires pour rationaliser vos projets.
 
-Vous pouvez facilement expérimenter avec FLUX Fill Pro en utilisant le template "Edit Image with Inpainting" dans AI-Flow. 
+Vous pouvez facilement expérimenter avec FLUX Fill Pro en utilisant le template "Edit Image with Inpainting" dans AI-Flow.
 
 ### Prêt à transformer vos projets avec Flux Fill Pro ?
 
@@ -97,4 +96,3 @@ Pour plus d'informations détaillées, consultez les ressources suivantes :
 
 - [Commencer avec AI-Flow](/blog/getting-started-with-ai-flow)
 - [Nœud Replicate](/blog/replicate-node)
-
