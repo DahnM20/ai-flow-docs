@@ -41,6 +41,21 @@ const smallArticlesData = [
 
 const templatesData = [
   {
+    title:
+      "Inpainting from Text Prompt - How to Achieve Seamless AI-Driven Image Editing",
+    type: "Template",
+    typeColor: "rgb(30 237 213)",
+    imageUrl: "/img/blog-images/programmatic-inpainting-11.png",
+    url: "/blog/inpainting-from-text-prompt/",
+  },
+  {
+    title: "Generate Vector Graphics with AI",
+    type: "Template",
+    typeColor: "rgb(30 237 213)",
+    imageUrl: "/img/blog-images/generate-svg-with-recraft-v3-svg-2.png",
+    url: "/blog/generate-svg-with-recraft-v3-svg/",
+  },
+  {
     title: "Restyling - FLUX 1.1 Pro Ultra - Transform Your Images with AI",
     type: "Template",
     typeColor: "rgb(30 237 213)",

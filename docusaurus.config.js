@@ -162,6 +162,26 @@ const config = {
             title: "LATEST UPDATES",
             items: [
               {
+                label: "Inpainting from Text Prompt",
+                href: "/blog/inpainting-from-text-prompt/",
+              },
+              {
+                label: "Generate Vector Graphics with AI",
+                href: "/blog/generate-svg-with-recraft-v3-svg/",
+              },
+              {
+                label: "Restyling - FLUX 1.1 Pro Ultra",
+                href: "/blog/restyling-flux-1-1-pro-ultra/",
+              },
+              {
+                label: "Generate Image Variations with FLUX Redux Dev",
+                href: "/blog/flux-redux-dev-guide/",
+              },
+              {
+                label: "Edit Image with AI - Inpainting - FLUX Fill Pro",
+                href: "/blog/edit-image-with-inpainting-flux-fill-pro/",
+              },
+              {
                 label: "Generate SEO-Optimized Product Description with AI",
                 href: "/blog/generate-product-description/",
               },
@@ -176,16 +196,6 @@ const config = {
               {
                 label: "API Builder View",
                 href: "/docs/pro-features/api-builder/builder-view/",
-              },
-              {
-                label:
-                  "How to automate story and image creation using AI - Part 2",
-                href: "/blog/automate-story-creation-2/",
-              },
-              {
-                label:
-                  "How to automate story and image creation using AI - Part 1",
-                href: "/blog/automate-story-creation-1/",
               },
               // {
               //   label: "Creating New Nodes in AI-FLOW",
