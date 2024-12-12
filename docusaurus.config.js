@@ -92,7 +92,7 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
           // {
           //   href: "https://github.com/DahnM20/ai-flow",
           //   label: "GitHub",
@@ -138,31 +138,31 @@ const config = {
             items: [
               {
                 label: "Getting Started With AI-Flow",
-                href: "/blog/getting-started-with-ai-flow/",
+                href: "https://ai-flow.net/blog/getting-started-with-ai-flow/",
               },
               {
                 label: "How to Build and Deploy AI Workflows Easily",
-                href: "/blog/how-to-build-and-deploy-ai-workflows/",
+                href: "https://ai-flow.net/blog/how-to-build-and-deploy-ai-workflows/",
               },
               {
                 label: "How to Generate High-Quality Images with FLUX 1.1 Pro",
-                href: "/blog/generate-images-with-flux-1-1-pro/",
+                href: "https://ai-flow.net/blog/generate-images-with-flux-1-1-pro/",
               },
               {
                 label: "Integrate and Automate AI Workflow with API Builder",
-                href: "/blog/api-builder-1/",
+                href: "https://ai-flow.net/blog/api-builder-1/",
               },
               {
                 label: "Access Replicate API through AI-Flow",
-                href: "/blog/replicate-node/",
+                href: "https://ai-flow.net/blog/replicate-node/",
               },
               {
                 label: "Document Summarization with AI-FLOW",
-                href: "/blog/summarize-doc-post/",
+                href: "https://ai-flow.net/blog/summarize-doc-post/",
               },
               {
                 label: "Summarize Youtube Video using AI-FLOW",
-                href: "/blog/summarize-ytb-post/",
+                href: "https://ai-flow.net/blog/summarize-ytb-post/",
               },
             ],
           },
@@ -171,31 +171,31 @@ const config = {
             items: [
               {
                 label: "Inpainting from Text Prompt",
-                href: "/blog/inpainting-from-text-prompt/",
+                href: "https://ai-flow.net/blog/inpainting-from-text-prompt/",
               },
               {
                 label: "Generate Vector Graphics with AI",
-                href: "/blog/generate-svg-with-recraft-v3-svg/",
+                href: "https://ai-flow.net/blog/generate-svg-with-recraft-v3-svg/",
               },
               {
                 label: "Restyling - FLUX 1.1 Pro Ultra",
-                href: "/blog/restyling-flux-1-1-pro-ultra/",
+                href: "https://ai-flow.net/blog/restyling-flux-1-1-pro-ultra/",
               },
               {
                 label: "Generate Image Variations with FLUX Redux Dev",
-                href: "/blog/flux-redux-dev-guide/",
+                href: "https://ai-flow.net/blog/flux-redux-dev-guide/",
               },
               {
                 label: "Edit Image with AI - Inpainting - FLUX Fill Pro",
-                href: "/blog/edit-image-with-inpainting-flux-fill-pro/",
+                href: "https://ai-flow.net/blog/edit-image-with-inpainting-flux-fill-pro/",
               },
               {
                 label: "Generate SEO-Optimized Product Description with AI",
-                href: "/blog/generate-product-description/",
+                href: "https://ai-flow.net/blog/generate-product-description/",
               },
               {
                 label: "Create Stunning Coloring Book Pages with AI",
-                href: "/blog/generate-product-description/",
+                href: "https://ai-flow.net/blog/generate-product-description/",
               },
               {
                 label: "API Builder Nodes",
