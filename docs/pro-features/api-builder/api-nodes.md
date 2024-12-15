@@ -1,6 +1,6 @@
 # API Builder Nodes
 
-To begin building your API, you will need to utilize at least one of the following nodes: **API Input**, **API Output**, or **Webhook** (which will be covered in a later section).
+To begin building your API, you will need to utilize at least one of the following nodes: **Flow API Input**, **Flow API Output**, or **Webhook** (which will be covered in a later section).
 This node will define the structure of the API of your AI workflow.
 
 ## API Input Node
