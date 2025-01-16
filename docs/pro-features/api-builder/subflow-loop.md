@@ -101,5 +101,5 @@ For more detailed guidance and advanced configurations, refer to our [Additional
 
 ## Additional Resources
 
-- [Subflow Node Documentation](/docs/pro-features/api-builder/subflows/)
+- [Subflow Node Documentation](/docs/pro-features/api-builder/subflow/)
 - [Flow API Reference](/docs/pro-features/api-builder/api-nodes/)
