@@ -2,24 +2,49 @@
 sidebar_position: 4
 ---
 
-# Add image generation
+# Image Generation Models
 
-The integration of AI-driven image generation transforms the visual aspect of your application. Leveraging the power of renowned models like FLUX from Black Forest Labs, DALL-E from OpenAI or Stable Diffusion from StabilityAI, you can generate unique visuals based on textual prompts or other parameters. Below, we introduce three primary image generation nodes and their requirements, but please note that **you can find many more models through the Replicate Node (Recraft SVG, Imagen, ...)**
+Integrating AI-powered image generation can significantly enhance the visual capabilities of your application. By leveraging leading AI models such as FLUX from Black Forest Labs, DALL-E from OpenAI, and Stable Diffusion from StabilityAI, you can seamlessly generate unique visuals from textual prompts and various other parameters.
 
-## FLUX (With Replicate)
+Below, you'll find detailed information about our primary image generation nodes. However, please note that a wide variety of additional specialized models—including capabilities like inpainting, outpainting, and background removal—can be discovered and utilized through both the **Replicate Node** and **StabilityAI Node**.
 
-The FLUX family models are powerful text-to-image models, available through the Replicate node.
+## FLUX (with Replicate)
+
+The FLUX model series, accessible via the Replicate Node, provides powerful and versatile text-to-image generation capabilities. These models allow users to effortlessly create dynamic visual content tailored to specific prompts or creative needs.
 
 ![OCR Workflow with Amazon Textract](/img/blog-images/flux-1-1.png)
 
+To learn more about the FLUX model, feel free to explore our article on [How to Generate High-Quality Images with FLUX 1.1 Pro](https://ai-flow.net/blog/generate-images-with-flux-1-1-pro/)
+
 ## DALL-E (OpenAI)
 
-The DALL-E node, a creation of OpenAI, leverages the renowned DALL-E model, which is designed to generate images from textual prompts. With this node, users can enter a text prompt, and DALL-E will generate a corresponding image, fusing the capabilities of language understanding and visual representation.
+OpenAI's DALL-E Node, renowned for generating detailed and imaginative images directly from textual descriptions. This node combines advanced language processing with sophisticated visual generation, enabling users to produce accurate and imaginative visual outputs from straightforward text prompts.
 
-**DALL-E and Stable Diffusion nodes work the same, you can read the following part to learn more.**
+**Note:** _The DALL-E and Stable Diffusion nodes operate similarly. For detailed usage instructions, refer to the Stable Diffusion section below._
 
 ## Stable Diffusion (StabilityAI)
 
-The Stable Diffusion node is powered by StabilityAI. It offers a different approach to image generation, providing more controlled and stable image outputs based on the input prompts. Whether you're aiming for detailed illustrations, abstract visuals, or specific image types, the Stable Diffusion node can be a game-changer in your visual content generation process.
+The Stable Diffusion Node, powered by StabilityAI, provides robust and highly controlled image-generation capabilities. It allows for precise visual content creation, accommodating a wide range of needs—from highly detailed illustrations and realistic imagery to abstract visualizations. The StabilityAI Node encompasses the full StabilityAI API suite, featuring advanced functionalities such as:
 
-![Stable diffusion with inpout node](/img/blog-images/stable-diffusion-3-api-1.png)
+- **Inpainting:** Editing specific portions of an image seamlessly.
+- **Outpainting:** Expanding images beyond their original boundaries.
+- **Background Removal:** Automatically removing or altering backgrounds.
+- **Relighting:** Adjusting the lighting conditions within existing images.
+
+![Stable diffusion with input node](/img/blog-images/stable-diffusion-3-api-1.png)
+
+## Edit Image Capabilities
+
+Beyond primary image generation, advanced editing functionalities can be accessed through the Replicate and StabilityAI nodes. These platforms offer a rich ecosystem of specialized models tailored for tasks such as:
+
+- **Inpainting & Outpainting:** Precisely edit or expand visuals.
+- **Background Manipulation:** Efficiently remove or modify image backgrounds.
+- **Image Refinement:** Enhance and fine-tune visual quality through relighting and other image adjustments.
+- **Restyling:** Apply another style to an existing image.
+
+![Edit Images](/img/blog-images/edit-image-with-inpainting-flux-fill-pro-3.png)
+![Edit Images](/img/blog-images/restyling-flux-1-1-pro-ultra.png)
+
+To learn more about this, feel free to explore our articles on [Inpainting with FLUX Fill Pro](https://ai-flow.net/blog/edit-image-with-inpainting-flux-fill-pro/) or [Restyling with FLUX 1.1 Pro Ultra](https://ai-flow.net/blog/restyling-flux-1-1-pro-ultra/)
+
+Explore the variety of models available within Replicate and StabilityAI nodes to fully harness the potential of AI-driven image generation and editing in your workflows.

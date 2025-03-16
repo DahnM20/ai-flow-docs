@@ -25,6 +25,6 @@ This version is designed with flexibility in mind. **<span style={{color: '#25c2
 ## How Billing Works
 
 - **<span style={{color: '#25c2a0'}}>Credits by Default</span>**: When you log into AI-Flow Cloud, you can access all features by default using platform credits. These credits cover the usage of the platform's core services.
-- **<span style={{color: '#25c2a0'}}>(Optional) Add Your API Keys</span>**: For even more flexibility, you can add your own API keys to use specific nodes at no additional charge, aside from a small fee for resource usage. This system is designed to prevent you from paying for services you already have. By using your own API keys, you only pay for the platform’s infrastructure, not for the external services you already subscribe to.
+- **<span style={{color: '#25c2a0'}}>(Optional) Add Your API Keys</span>**: For even more flexibility, you can add your own API keys to use specific nodes at no additional charge, aside from a 5% fee for resource usage. This system is designed to prevent you from paying for services you already have. By using your own API keys, you only pay for the platform’s infrastructure, not for the external services you already subscribe to.
 
 This hybrid billing model ensures that AI-Flow Cloud remains accessible and sustainable for all users, offering a fair and transparent approach to pricing.

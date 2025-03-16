@@ -36,12 +36,4 @@ For users who prefer complete control and customization:
 - **Predefined AI Actions**: Execute common AI tasks like content summarization without crafting complex prompts.
 - **Extensive AI Model Support**: Integration with various models including Mistral, MusicGen, and StableVideoDiffusion.
 
-## Getting Started
-
-To utilize certain AI models, you'll need appropriate API keys:
-
-- **OpenAI API Key**: For GPT and DALL-E functionalities.
-- **StabilityAI API Key**: For Stable Diffusion tasks.
-- **Replicate API Key**: To access a wide selection of models available through Replicate nodes.
-
 Choose the AI-Flow edition that best suits your workflow requirements and begin harnessing powerful AI capabilities with ease.
