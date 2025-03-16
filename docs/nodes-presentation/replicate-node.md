@@ -25,3 +25,9 @@ Upon selecting "Select Model," a popup window displays all available models. Mod
 ![Model Popup](/img/blog-images/replicate-catalog.png)
 
 This diverse selection enables the generation of various outputs including text, mp3, mp4, gif, png, etc. However, due to this diversity, some models may not be fully supported by AI-Flow.
+
+Here are various examples relying on Replicate Node :
+
+- [How to Generate High-Quality Images with FLUX 1.1 Pro](https://ai-flow.net/blog/generate-images-with-flux-1-1-pro/)
+- [Inpainting from Text Prompt - How to Achieve Seamless AI-Driven Image Editing](https://ai-flow.net/blog/inpainting-from-text-prompt/)
+- [Generate Stunning AI Videos with MiniMax Video-01 (Hailuo)](https://ai-flow.net/blog/minimax-video-template-guide/)
