@@ -1,49 +1,16 @@
-# Install with Windows .exe
+# Installation Using Windows Executable (.exe)
 
-### Prerequisitess
+### Prerequisites
 
 - A Windows-based system.
 
-### With the Desktop App (Recommended)
+Download the latest version of AI-Flow for Windows from the official releases page: [AI-FLOW Releases](https://ai-flow.net/release/).
 
-You can download the application from the following link: [Releases AI-FLOW](https://ai-flow.net/release/).
+After downloading, simply run the provided `.exe` file. This executable launches a local server, enabling direct access to AI-Flow's user interface as a standalone Windows application.
 
-To use the desktop app, simply run the .exe file after downloading. This executable will launch a local server to run AI-FLOW, allowing you to access the user interface directly as a Windows application.
+### Important Configuration
 
-:::tip Note
+- **Replicate Node API Key**: To utilize the Replicate Node, ensure you set the `REPLICATE_API_KEY`.
+  You can configure this via the application settings in your App Configuration.
 
-You'll need to set REPLICATE_API_KEY in your env to be able to use the Replicate Node.
-
-Or, update the REPLICATE_API_KEY in `ai-flow-win32-x64/resources/server/.env`
-
-:::
-
----
-
-### With the server.exe release
-
-You can download the server release here : [Releases AI-FLOW](https://ai-flow.net/release/).
-
-1. **Download the Executable**:
-   - Download the `.rar` file provided for the latest release.
-   - This file contains all the code necessary for the application.
-   - Extract the content of the `.rar`
-
-### Installation & Running
-
-1. **Executing the Server**:
-
-   - Locate the `server.exe` file.
-
-   - It's important to note that you might need to run `server.exe` with administrative privileges for proper functionality. You can try without first, but if it doesn't work then :
-
-     1. Right-click on `server.exe`.
-     2. Select 'Run as administrator'.
-
-   - You'll need to update the REPLICATE_API_KEY in the `.env` file to use the Replicate Node. This API key is used exclusively for fetching model data.
-
-2. **Accessing the Server**:
-   - With the server running, open your preferred web browser and navigate to:
-     ```
-     http://localhost:5000
-     ```
+- **File Upload Feature**: Some nodes require the file upload feature enabled to function correctly or to facilitate communication with other nodes. For detailed guidance on enabling and configuring file uploads, please refer to the corresponding [documentation article](/docs/file-upload/file-upload-s3.md).
