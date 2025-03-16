@@ -37,10 +37,7 @@ The subflow node transforms an existing flow into a custom node.
 
    > **Note:** The custom node will not automatically update if the flow is modified later. It is a static snapshot of the selected flow's state.
 
-3. **Validate the Node**  
-   Once you've selected a flow, click "Validate" to generate the custom node.
-
-   ![API Output Node Example](/img/page-images/api-builder/subflow-preview-2.png)
+3. **Validate the Node**
 
    The custom node is now ready for use, just like any other node. If you need to review the logic behind the node, click the "View Subflow" button.
 
