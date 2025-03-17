@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Image Generation Models
 
-Integrating AI-powered image generation can significantly enhance the visual capabilities of your application. By leveraging leading AI models such as FLUX from Black Forest Labs, DALL-E from OpenAI, and Stable Diffusion from StabilityAI, you can seamlessly generate unique visuals from textual prompts and various other parameters.
+By leveraging leading AI models such as FLUX from Black Forest Labs, DALL-E from OpenAI, and Stable Diffusion from StabilityAI, you can seamlessly generate unique visuals from textual prompts and various other parameters.
 
 Below, you'll find detailed information about our primary image generation nodes. However, please note that a wide variety of additional specialized models—including capabilities like inpainting, outpainting, and background removal—can be discovered and utilized through both the **Replicate Node** and **StabilityAI Node**.
 

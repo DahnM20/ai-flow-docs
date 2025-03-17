@@ -47,11 +47,3 @@ When you launch this request, your flow will start being processed. Due to the u
 With your run ID, you can retrieve your result once it's ready. If the processing is not complete, you will receive a status indicating "pending" in the response.
 
 For immediate access to your result without making additional requests, you can explore the Webhook section.
-
----
-
-## Additional Resources
-
-For more detailed information and advanced configurations, refer to the following resources:
-
-- [Webhook Node Documentation](/docs/pro-features/api-builder/webhooks/)
