@@ -46,16 +46,9 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/DahnM20/ai-flow-docs/tree/main/docs/",
+          routeBasePath: "/",
         },
-        blog: {
-          showReadingTime: true,
-          blogSidebarCount: 0,
-          // blogSidebarCount: "ALL",
-          blogSidebarTitle: "All posts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/DahnM20/ai-flow-docs/tree/main/blog/",
-        },
+        blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -86,22 +79,11 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tutorial",
-          },
-          // { to: "/blog", label: "Blog", position: "left" },
           // {
-          //   href: "https://github.com/DahnM20/ai-flow",
-          //   label: "GitHub",
-          //   position: "right",
-          // },
-          // {
-          //   href: "https://twitter.com/DahnM20",
-          //   label: "Twitter",
-          //   position: "right",
+          //   type: "docSidebar",
+          //   sidebarId: "tutorialSidebar",
+          //   position: "left",
+          //   label: "Tutorial",
           // },
           {
             type: "localeDropdown",
