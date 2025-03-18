@@ -1,4 +1,4 @@
-# Webhooks
+# Send a Webhook Request
 
 ## Webhook Node
 

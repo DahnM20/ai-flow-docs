@@ -1,6 +1,6 @@
 # Subflow Loop
 
-Building upon the robust capabilities of **Subflow Nodes**, we are excited to introduce the **Subflow Loop Node**. This powerful addition enhances your flow logic by enabling iteration over multiple data sets within a subflow, supporting the creation of more complex and dynamic workflows.
+Building upon the capabilities of [Subflow Node](/docs/pro-features/api-builder/subflow/), we are excited to introduce the **Subflow Loop Node**. This powerful addition enhances your flow logic by enabling iteration over multiple data sets within a subflow, supporting the creation of more complex and dynamic workflows.
 
 ---
 
@@ -96,8 +96,6 @@ While the bottom approach runs nodes in parallel—a feature not yet supported b
 The **Subflow Loop Node** significantly enhances the flexibility and efficiency of your flow-based applications by enabling seamless iteration over data sets within subflows. By abstracting repetitive tasks into a reusable node, you can simplify workflows, improve maintainability, and maximize the power of your application.
 
 For more detailed guidance and advanced configurations, refer to our [Additional Resources](#additional-resources) section below.
-
----
 
 ## Additional Resources
 

@@ -1,0 +1,9 @@
+{
+  "label": "User Integrations",
+  "position": 6,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Discover how to create and manage an API around a given Flow to integrate it seamlessly to other tools."
+  }
+}

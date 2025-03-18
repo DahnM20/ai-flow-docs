@@ -4,9 +4,10 @@
 
 ### Key Advantages
 
-- **Immediate Access:** Quickly run workflows using simple input forms.
+- **Immediate Access:** Quickly run workflows using **simple input forms.**
 - **User-Friendly:** Ideal for users seeking efficiency and simplicity.
 - **Mobile-Friendly:** Optimized for seamless use on mobile devices, allowing workflows to be executed anywhere, anytime.
+- **Can also be used in Workflow View:** All instant tools are available by default **as subflows** in the workflow editor.
 
 ### How It Works
 
@@ -28,4 +29,4 @@ Instant Tools are accessible via a dedicated menu, offering default tools ready 
 
 ![Instant Tools Mobile View](/img/page-images/instant-tools-launcher-3.png)
 
-Instant Tools streamline your workflow execution, delivering speed, accessibility, and convenience for both desktop and mobile users.
+Instant Tools streamline your workflow execution, delivering speed, accessibility, and convenience for both desktop and mobile users. Feel free to try them at [AI Flow App - Instant Tools](https://app.ai-flow.net/?menu=instant-tools).

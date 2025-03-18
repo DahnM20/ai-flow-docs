@@ -1,42 +1,15 @@
 import React from "react";
-
 import { FaArrowRight } from "react-icons/fa6";
 
-// Define the big card data
-const bigCardData = {
-  title: "How to Build and Deploy AI Workflows Easily",
-  description:
-    "Discover how to effortlessly build and deploy AI workflows using AI-Flow's drag-and-drop interface. Integrate multiple AI models and automate tasks without coding!",
-  type: "Article",
-  typeColor: "rgb(237, 177, 30)",
-  date: "September 26, 2024",
-  imageUrl: "/img/blog-card-images/app-overview-r.png",
-  url: "https://ai-flow.net/blog/how-to-build-and-deploy-ai-workflows/",
-};
+const docsLinks = [
+  {
+    title: "Build your Flow",
+    url: "/docs/nodes-presentation/how-to-use-nodes/",
+  },
+  { title: "Open Source VS Pro", url: "/docs/install-guide/ai-flow-cloud/" },
 
-// Define the small articles data
-const smallArticlesData = [
-  {
-    title: "How to Generate High-Quality Images with FLUX 1.1 Pro",
-    type: "Article",
-    typeColor: "rgb(237, 177, 30)",
-    imageUrl: "/img/blog-images/flux-1-1.png",
-    url: "https://ai-flow.net/blog/generate-images-with-flux-1-1-pro/",
-  },
-  {
-    title: "Access Replicate API through AI-Flow",
-    type: "Article",
-    typeColor: "rgb(237, 177, 30)",
-    imageUrl: "/img/page-images/replicate-node/model-popup.png",
-    url: "https://ai-flow.net/blog/replicate-node/",
-  },
-  {
-    title: "Integrate and Automate AI Workflows with API Builder",
-    type: "Article",
-    typeColor: "rgb(237, 177, 30)",
-    imageUrl: "/img/page-images/api-builder/api-builder-6.png",
-    url: "https://ai-flow.net/blog/api-builder-1/",
-  },
+  { title: "File Upload Settings", url: "/docs/file-upload/file-upload-s3/" },
+  { title: "Pro Features", url: "/docs/category/-pro-features/" },
 ];
 
 const templatesData = [
@@ -128,92 +101,11 @@ const templatesData = [
   },
 ];
 
-function BigCard({ title, description, type, typeColor, date, imageUrl, url }) {
-  return (
-    <article className="big-card rounded-xl overflow-hidden bg-white dark:bg-gray-800/90 shadow-md hover:shadow-lg transition-shadow duration-300">
-      <a href={url} className="block">
-        <img
-          src={imageUrl}
-          alt={title}
-          className="w-full h-auto transition-transform duration-300 hover:scale-105"
-        />
-      </a>
-      <div className="p-8">
-        <header>
-          <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-2">
-            <span
-              className="block h-3 w-3 rounded-full"
-              style={{ backgroundColor: typeColor }}
-            ></span>
-            <span className="uppercase font-semibold text-gray-700 dark:text-gray-300">
-              {type}
-            </span>
-            <span className="ml-auto">{date}</span>
-          </div>
-          <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
-            <a href={url} className="hover:underline">
-              {title}
-            </a>
-          </h3>
-          <p className="text-gray-600 dark:text-gray-300">{description}</p>
-        </header>
-      </div>
-    </article>
-  );
-}
-function SmallArticle({ title, imageUrl, url, type, typeColor }) {
-  return (
-    <article className="small-article flex mb-6  bg-gray-800/60 bg-gradient-to-br rounded-lg shadow-md transition-shadow duration-300 hover:shadow-lg overflow-hidden">
-      <a
-        href={url}
-        className="flex-shrink-0"
-        aria-label={`Read more about ${title}`}
-      >
-        <img
-          src={imageUrl}
-          alt={`Thumbnail for ${title}`}
-          className="w-24 md:h-full  md:w-44 min-h-full md:min-h-36 object-cover transition-transform duration-300 hover:scale-105 "
-        />
-      </a>
-      <div className="ml-4 flex flex-col justify-between py-5 px-2">
-        <header>
-          <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400 mb-2">
-            <span
-              className="block h-2 w-2 rounded-full"
-              style={{ backgroundColor: typeColor }}
-              aria-hidden="true"
-            ></span>
-            <span className="uppercase font-semibold text-gray-700 dark:text-gray-300">
-              {type}
-            </span>
-          </div>
-          <h4 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-1">
-            <a
-              href={url}
-              className="hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500"
-            >
-              {title}
-            </a>
-          </h4>
-        </header>
-        <a
-          href={url}
-          className="text-blue-500 dark:text-blue-400 flex items-center gap-2 transition-transform duration-300 hover:translate-x-1 focus:outline-none"
-          aria-label={`Read more about ${title}`}
-          style={{ textDecoration: "none" }}
-        >
-          Read more
-          <FaArrowRight className="transition-transform duration-300 transform group-hover:translate-x-1" />{" "}
-        </a>
-      </div>
-    </article>
-  );
-}
-
+// TemplateArticle component (unchanged, minor color tweaks for clarity)
 function TemplateArticle({ title, imageUrl, url, type, typeColor }) {
   return (
-    <article className="flex flex-col mb-6  bg-gray-800/60 rounded-lg shadow-md transition-shadow duration-300 hover:shadow-lg overflow-hidden h-96 w-full">
-      <a href={url} className="" aria-label={`Read more about ${title}`}>
+    <article className="flex flex-col mb-6 bg-gray-800 rounded-lg shadow-md transition-shadow duration-300 hover:shadow-lg overflow-hidden h-96 w-full">
+      <a href={url} aria-label={`Read more about ${title}`}>
         <img
           src={imageUrl}
           alt={`Thumbnail for ${title}`}
@@ -222,17 +114,17 @@ function TemplateArticle({ title, imageUrl, url, type, typeColor }) {
       </a>
       <div className="flex flex-col justify-between py-5 px-5 flex-1 overflow-hidden">
         <header>
-          <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400 mb-2">
+          <div className="flex items-center gap-2 text-xs text-gray-400 mb-2">
             <span
               className="block h-2 w-2 rounded-full"
               style={{ backgroundColor: typeColor }}
               aria-hidden="true"
             ></span>
-            <span className="uppercase font-semibold text-gray-700 dark:text-gray-300">
+            <span className="uppercase font-semibold text-gray-300">
               {type}
             </span>
           </div>
-          <h4 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-1 line-clamp-2">
+          <h4 className="text-lg font-semibold text-white mb-1 line-clamp-2">
             <a
               href={url}
               className="hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -243,52 +135,79 @@ function TemplateArticle({ title, imageUrl, url, type, typeColor }) {
         </header>
         <a
           href={url}
-          className="text-blue-500 dark:text-blue-400 flex items-center gap-2 transition-transform duration-300 hover:translate-x-1 focus:outline-none"
+          className="text-blue-400 flex items-center gap-2 transition-transform duration-300 hover:translate-x-1 focus:outline-none"
           aria-label={`Read more about ${title}`}
           style={{ textDecoration: "none" }}
         >
           Read more
-          <FaArrowRight className="transition-transform duration-300 transform group-hover:translate-x-1" />{" "}
+          <FaArrowRight className="transition-transform duration-300 transform group-hover:translate-x-1" />
         </a>
       </div>
     </article>
   );
 }
 
+// Simple pill button for doc links
+function DocLinkButton({ title, url }) {
+  return (
+    <a
+      href={url}
+      className="inline-flex items-center justify-center px-5 py-2 rounded-full 
+                 bg-gray-800 hover:bg-gray-700 text-white 
+                 transition-colors duration-300 font-medium"
+      style={{ textDecoration: "none" }}
+    >
+      {title}
+    </a>
+  );
+}
+
+// Main page component
 export default function HomepageFeatures() {
   return (
-    <section className="flex flex-col items-center mt-2 mb-10 px-4">
-      <div className="w-full max-w-7xl">
-        <div className="flex flex-col md:flex-row md:-mx-4">
-          {/* Left Column for Big Card */}
-          <div className="md:w-1/2 md:px-4 mb-8 md:mb-0">
-            <BigCard {...bigCardData} />
-          </div>
-          {/* Right Column for Small Articles */}
-          <div className="md:w-1/2 md:px-4">
-            {smallArticlesData.map((article, index) => (
-              <SmallArticle key={index} {...article} />
+    <section className="text-white">
+      {/* CTA: Get started in 5min */}
+      <div className="flex justify-center mb-8">
+        <a
+          href="/docs/intro/"
+          className="inline-flex items-center justify-center 
+                       bg-blue-600 hover:bg-blue-700 text-white hover:text-white
+                       px-8 py-3 rounded-full font-semibold 
+                       shadow transition-all duration-300"
+          style={{ textDecoration: "none" }}
+        >
+          Get started in 5min
+          <FaArrowRight className="ml-3" />
+        </a>
+      </div>
+
+      {/* Documentation Links (pills) */}
+      <div className="flex flex-wrap justify-center gap-4 mb-16">
+        {docsLinks.map((link, index) => (
+          <DocLinkButton key={index} {...link} />
+        ))}
+      </div>
+
+      {/* Featured Templates Section */}
+      <div className="text-center">
+        <h3 className="text-3xl font-semibold">
+          Explore Our Featured Templates
+        </h3>
+        <p className="text-lg mt-2 text-gray-400 max-w-3xl mx-auto">
+          Discover detailed guides on our selected templates. More options are
+          available in the application, covering image generation, productivity,
+          SEO workflows, data scraping, and more.
+        </p>
+      </div>
+
+      {/* Templates Grid */}
+      <div className="flex w-full justify-center items-center">
+        <div className="flex md:w-[78%] ">
+          <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 ">
+            {templatesData.map((article, index) => (
+              <TemplateArticle key={index} {...article} />
             ))}
           </div>
-        </div>
-      </div>
-      <div className="w-full mt-20 justify-center flex flex-col">
-        <span className="w-full text-center flex flex-col">
-          <h3 className="text-3xl font-semibold">
-            Explore Our Featured Templates
-          </h3>
-          <p className="text-lg mt-2 text-gray-400">
-            Discover detailed guides on our selected templates. More options are
-            available in the application, covering image generation,
-            productivity, SEO workflows, data scraping, and more.
-          </p>
-        </span>
-        <div className="flex flex-wrap justify-center mt-10 gap-8 w-full ">
-          {templatesData.map((article, index) => (
-            <div className="md:w-1/4 w-full">
-              <TemplateArticle key={index} {...article} />
-            </div>
-          ))}
         </div>
       </div>
     </section>

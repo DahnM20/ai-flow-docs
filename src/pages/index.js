@@ -7,7 +7,7 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header>
-      <div className="flex w-full bg-teal-800/60  h-14 justify-center items-center mb-10">
+      <div className="flex w-full bg-teal-800/60  h-14 justify-center items-center">
         <p className="text-lg leading-none m-0">
           Latest Features: Claude 3.7, Google Gemini Node and Light Theme
         </p>
