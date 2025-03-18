@@ -33,7 +33,7 @@ The Stable Diffusion Node, powered by StabilityAI, provides robust and highly co
 
 ![Stable diffusion with input node](/img/blog-images/stable-diffusion-3-api-1.png)
 
-## Edit Image Capabilities
+## Image Editing Capabilities
 
 Beyond primary image generation, advanced editing functionalities can be accessed through the Replicate and StabilityAI nodes. These platforms offer a rich ecosystem of specialized models tailored for tasks such as:
 
