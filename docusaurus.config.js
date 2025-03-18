@@ -78,12 +78,18 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
-          // {
-          //   type: "docSidebar",
-          //   sidebarId: "tutorialSidebar",
-          //   position: "left",
-          //   label: "Tutorial",
-          // },
+          { href: "https://ai-flow.net/blog", label: "Blog", position: "left" },
+          {
+            href: "https://app.ai-flow.net",
+            label: "Launch App",
+            position: "right",
+            className: "button button--primary navbar__cta-button",
+          },
+          {
+            href: "https://github.com/DahnM20/ai-flow-docs",
+            label: "GitHub",
+            position: "right",
+          },
           {
             type: "localeDropdown",
             position: "right",

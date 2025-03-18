@@ -68,9 +68,43 @@ h1, h2, h3, h4, .menu__link--active {
 
 .navbar{
   background-color: #1B1B1D;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
+.navbar__logo img {
+  height: 36px;
+  width: auto;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  border-radius: 0%;
+}
+
+.navbar__inner {
+  align-items: center;
+}
+
+.navbar__item {
+  margin-right: 1rem;
+}
+
+.navbar__cta-button {
+  background: linear-gradient(135deg, #00bfa6, #007c72);
+  padding: 6px 20px;
+  border-radius: 999px;
+  color: #fff !important;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 191, 166, 0.25);
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.navbar__cta-button:hover {
+  background: linear-gradient(135deg, #00d4b3, #009984);
+  color: #fff !important;
+  box-shadow: 0 6px 16px rgba(0, 191, 166, 0.35);
+}
 
 /* Footer Styles */
 .footer {
