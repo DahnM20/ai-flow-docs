@@ -101,7 +101,6 @@ const templatesData = [
   },
 ];
 
-// TemplateArticle component (unchanged, minor color tweaks for clarity)
 function TemplateArticle({ title, imageUrl, url, type, typeColor }) {
   return (
     <article className="flex flex-col mb-6 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl shadow-xl transition-all duration-300 hover:scale-[1.02] overflow-hidden h-96 w-full group">
@@ -109,7 +108,7 @@ function TemplateArticle({ title, imageUrl, url, type, typeColor }) {
         <img
           src={imageUrl}
           alt={`Thumbnail for ${title}`}
-          className="w-full h-52 object-cover transition-transform duration-300 group-hover:scale-105"
+          className="w-full h-52 object-cover transition-transform duration-300 group-hover:scale-105 rounded-none shadow-none"
         />
       </a>
       <div className="flex flex-col justify-between py-5 px-5 flex-1 overflow-hidden">
