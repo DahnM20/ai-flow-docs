@@ -8,6 +8,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, .menu__link--active {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
@@ -57,6 +68,7 @@
 
 .navbar{
   background-color: #1B1B1D;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
 
@@ -65,7 +77,6 @@
   background-color: #2c3e50; /* Dark blue-gray background */
   color: #ecf0f1; /* Light gray text */
   padding: 40px 0;
-  font-family: 'Open Sans', sans-serif;
 }
 
 /* Footer Title */
@@ -86,6 +97,7 @@
 /* Footer Item */
 .footer__item {
   margin-bottom: 10px;
+  line-height: 1.8;
 }
 
 /* Footer Links */
@@ -117,4 +129,127 @@
   .footer__col {
     margin-bottom: 30px;
   }
+}
+
+.navbar__link {
+  transition: color 0.2s ease;
+}
+.navbar__link:hover {
+  color: #00bfa6;
+}
+.footer {
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+.footer__item a:hover {
+  text-decoration: underline;
+}
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+code {
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+}
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.menu__link {
+  border-radius: 6px;
+  transition: background-color 0.2s, padding-left 0.2s;
+}
+
+.menu__link:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.menu__link--active {
+  background: linear-gradient(135deg, #00bfa6, #007c72);
+  color: #fff !important;
+}
+
+.menu__list {
+  margin-top: 10px;
+}
+
+.menu__list-item {
+  margin-bottom: 6px;
+}
+
+.menu__list-item > .menu__list {
+  transition: all 0.3s ease;
+}
+
+.menu__list-item .menu__list .menu__link {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 400;
+  padding-left: 1.5rem;
+}
+.menu__list-item .menu__list .menu__link:hover {
+  color: #00bfa6;
+}
+
+.menu__link[href*="/category/"]::before {
+  content: "";
+  display: inline-block;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  filter: invert(1) brightness(1.3);
+}
+
+.menu__link[href*="category/installation-guide"]::before {
+  background-image: url('/img/icons/settings.svg');
+}
+
+.menu__link[href*="category/build-your-flow"]::before {
+  background-image: url('/img/icons/workflow.svg');
+}
+
+.menu__link[href*="category/file-upload/"]::before {
+  background-image: url('/img/icons/cloud-upload.svg');
+}
+
+.menu__link[href*="category/pro-features/"]::before {
+  background-image: url('/img/icons/rocket.svg');
+}
+
+.menu__link[href*="category/contribute/"]::before {
+  background-image: url('/img/icons/gem.svg');
+}
+
+.menu__link[href*="category/api-builder/"]::before {
+  background-image: url('/img/icons/cable.svg');
+}
+
+.menu__link[href*="category/user-integrations/"]::before {
+  background-image: url('/img/icons/blocks.svg');
+}
+
+.menu__link:hover::before {
+  opacity: 1;
+}
+
+
+.menu__link[href*="/category/"] {
+  text-transform: uppercase;
+  font-size: 0.68rem;
+  letter-spacing: 0.09em;
+  color: rgba(255, 255, 255, 0.596);
+  font-weight: 500;
+  padding-top: 0.6rem;
+  padding-bottom: 0.3rem;
+  display: flex;
+  align-items: center;
+  cursor: default; /* makes it feel like a label, not a button */
+  transition: color 0.2s ease;
+}
+
+.menu__link[href*="/category/"]:hover {
+  color: rgba(255, 255, 255, 0.89);
 }
