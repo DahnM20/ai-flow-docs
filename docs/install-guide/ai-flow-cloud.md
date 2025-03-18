@@ -1,30 +1,28 @@
 # AI-Flow Cloud
 
-AI-Flow Cloud is the hosted service for the **Pro** version of AI-Flow. This managed solution takes care of configuration, uptime, and updates, allowing you to focus on your projects rather than the technical details. AI-Flow Cloud offers additional features beyond the self-hosted version and is continuously evolving to meet the needs of its users.
+AI-Flow Cloud is the **Pro** hosted version of AI-Flow, designed to eliminate setup headaches so you can focus on building. No need to worry about configurations, updates, or downtime — we handle it all.
 
-This version is designed with flexibility in mind. **<span style={{color: '#25c2a0'}}>All tools are accessible by default, but if you prefer to use your own resources, you can easily integrate your personal API keys.</span>**
+All tools are available by default. Should you prefer to use your own API keys, you can seamlessly integrate them for enhanced control and optimized costs.
 
 ## Why Choose AI-Flow Cloud
 
-- **<span style={{color: '#25c2a0'}}>Hassle-Free Management</span>**: AI-Flow Cloud handles all updates and maintenance automatically, ensuring that you always have the latest features and security patches without any manual intervention.
-- **<span style={{color: '#25c2a0'}}>Scalability and Flexibility</span>**: AI-Flow Cloud scales with your needs. It provides all the tools out-of-the-box, with the option to use your own API keys for specific services if desired.
-- **<span style={{color: '#25c2a0'}}>Continuous Improvement</span>**: The platform is constantly evolving, with new features and enhancements added regularly based on user feedback and emerging industry trends.
+- **Effortless Maintenance**: Automatic updates and security patches — no manual work.
+- **Flexible & Scalable**: Access every tool by default and add your own API keys anytime.
+- **Always Improving**: Continuous feature upgrades, inspired by user feedback.
 
 ## AI-Flow Cloud vs. Self-Hosting
 
-| Feature               | Self-Hosting                          | AI-Flow Cloud                                                              |
-| --------------------- | ------------------------------------- | -------------------------------------------------------------------------- |
-| **Accessibility**     | Available only on configured machines | **✔️ Available on any device with internet access**                        |
-| **Updates**           | Manual download and installation      | **✔️ Automatic updates**                                                   |
-| **File Uploads**      | Manual S3 or R2 configuration         | **✔️ Fully managed, no setup required**                                    |
-| **Data Saving**       | Limited to local setup                | **✔️ Automatic saving and backups**                                        |
-| **Advanced Features** | ❌                                    | **✔️ Includes Webhooks, Input Automation, and API Builder out-of-the-box** |
-| **SSL/TLS Security**  | Requires manual configuration         | **✔️ Fully managed SSL/TLS**                                               |
-| **Community Sharing** | ❌                                    | **✔️ Share and run flows with the community**                              |
+| Feature                 | Self-Hosting     | AI-Flow Cloud                                             |
+| ----------------------- | ---------------- | --------------------------------------------------------- |
+| **Updates**             | Manual downloads | **✔️ Automatic, always up-to-date**                       |
+| **File Uploads**        | Manual S3 setup  | **✔️ Fully managed — zero config**                        |
+| **Advanced Features**   | ❌ Limited       | **✔️ Webhooks, Subflows, Loops, API Builder & more**      |
+| **Bring Your Own Keys** | Limited usage    | **✔️ Default full access, optimize costs with your keys** |
+| **SSL/TLS Security**    | Set up manually  | **✔️ Managed & secure by default**                        |
 
-## How Billing Works
+## Billing Made Simple
 
-- **<span style={{color: '#25c2a0'}}>Credits by Default</span>**: When you log into AI-Flow Cloud, you can access all features by default using platform credits. These credits cover the usage of the platform's core services.
-- **<span style={{color: '#25c2a0'}}>(Optional) Add Your API Keys</span>**: For even more flexibility, you can add your own API keys to use specific nodes at no additional charge, aside from a 5% fee for resource usage. This system is designed to prevent you from paying for services you already have. By using your own API keys, you only pay for the platform’s infrastructure, not for the external services you already subscribe to.
+- **Start with Platform Credits**: Get instant access to all features through credits.
+- **Add Your Own Keys (Optional)**: Optimize costs by using your personal API keys — only pay a small 5% infrastructure fee.
 
-This hybrid billing model ensures that AI-Flow Cloud remains accessible and sustainable for all users, offering a fair and transparent approach to pricing.
+This hybrid model keeps things simple, transparent, and flexible — pay for what you use, or leverage your existing subscriptions.
