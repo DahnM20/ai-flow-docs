@@ -36,6 +36,7 @@ Display Node is capable of showing **list outputs**. If your node output is a li
 
 - Displays the list in a clean grid layout.
 - Great for visually scanning multiple elements at once, especially when dealing with structured data.
+- Ideal for displaying images and videos.
 
 ![Loop Example](/img/page-images/display-node-grid.png)
 
@@ -45,8 +46,6 @@ Display Node is capable of showing **list outputs**. If your node output is a li
 - Perfect for inspecting elements in detail when working with large or complex lists.
 
 ![Loop Example](/img/page-images/display-node-grid-2.png)
-
----
 
 ## Why It’s Useful
 
