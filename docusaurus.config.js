@@ -96,6 +96,14 @@ const config = {
           },
         ],
       },
+      announcementBar: {
+        id: "new-release",
+        content:
+          "🚀 Latest Features: Claude 3.7, Google Gemini Node and Light Theme.",
+        backgroundColor: "#0b1120",
+        textColor: "#f5f5f5",
+        isCloseable: true,
+      },
       footer: {
         style: "dark",
         links: [

@@ -104,30 +104,33 @@ const templatesData = [
 // TemplateArticle component (unchanged, minor color tweaks for clarity)
 function TemplateArticle({ title, imageUrl, url, type, typeColor }) {
   return (
-    <article className="flex flex-col mb-6 bg-gray-800 rounded-lg shadow-md transition-shadow duration-300 hover:shadow-lg overflow-hidden h-96 w-full">
+    <article className="flex flex-col mb-6 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl shadow-xl transition-all duration-300 hover:scale-[1.02] overflow-hidden h-96 w-full group">
       <a href={url} aria-label={`Read more about ${title}`}>
         <img
           src={imageUrl}
           alt={`Thumbnail for ${title}`}
-          className="w-full h-52 object-cover transition-transform duration-300 hover:scale-105"
+          className="w-full h-52 object-cover transition-transform duration-300 group-hover:scale-105"
         />
       </a>
       <div className="flex flex-col justify-between py-5 px-5 flex-1 overflow-hidden">
         <header>
           <div className="flex items-center gap-2 text-xs text-gray-400 mb-2">
             <span
-              className="block h-2 w-2 rounded-full"
-              style={{ backgroundColor: typeColor }}
+              className="block h-2 w-2 rounded-full shadow-md"
+              style={{
+                backgroundColor: typeColor,
+                boxShadow: `0 0 6px ${typeColor}`,
+              }}
               aria-hidden="true"
             ></span>
-            <span className="uppercase font-semibold text-gray-300">
+            <span className="uppercase font-semibold tracking-wider text-gray-300 text-[0.7rem]">
               {type}
             </span>
           </div>
-          <h4 className="text-lg font-semibold text-white mb-1 line-clamp-2">
+          <h4 className="text-lg font-semibold text-white mb-2 line-clamp-2">
             <a
               href={url}
-              className="hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="hover:underline focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-colors"
             >
               {title}
             </a>
@@ -135,9 +138,8 @@ function TemplateArticle({ title, imageUrl, url, type, typeColor }) {
         </header>
         <a
           href={url}
-          className="text-blue-400 flex items-center gap-2 transition-transform duration-300 hover:translate-x-1 focus:outline-none"
+          className="text-cyan-400 flex items-center gap-2 transition-transform duration-300 hover:translate-x-1 focus:outline-none text-sm font-medium"
           aria-label={`Read more about ${title}`}
-          style={{ textDecoration: "none" }}
         >
           Read more
           <FaArrowRight className="transition-transform duration-300 transform group-hover:translate-x-1" />
@@ -146,17 +148,10 @@ function TemplateArticle({ title, imageUrl, url, type, typeColor }) {
     </article>
   );
 }
-
 // Simple pill button for doc links
 function DocLinkButton({ title, url }) {
   return (
-    <a
-      href={url}
-      className="inline-flex items-center justify-center px-5 py-2 rounded-full 
-                 bg-gray-800 hover:bg-gray-700 text-white 
-                 transition-colors duration-300 font-medium"
-      style={{ textDecoration: "none" }}
-    >
+    <a href={url} className="doc-pill" style={{ textDecoration: "none" }}>
       {title}
     </a>
   );
@@ -168,14 +163,7 @@ export default function HomepageFeatures() {
     <section className="text-white">
       {/* CTA: Get started in 5min */}
       <div className="flex justify-center mb-8">
-        <a
-          href="/docs/intro/"
-          className="inline-flex items-center justify-center 
-                       bg-blue-600 hover:bg-blue-700 text-white hover:text-white
-                       px-8 py-3 rounded-full font-semibold 
-                       shadow transition-all duration-300"
-          style={{ textDecoration: "none" }}
-        >
+        <a href="/docs/intro/" className="get-started-btn">
           Get started in 5min
           <FaArrowRight className="ml-3" />
         </a>
@@ -201,9 +189,9 @@ export default function HomepageFeatures() {
       </div>
 
       {/* Templates Grid */}
-      <div className="flex w-full justify-center items-center">
-        <div className="flex md:w-[78%] ">
-          <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 ">
+      <div className="flex w-full justify-center items-center px-4 md:px-0">
+        <div className="w-full max-w-7xl">
+          <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 animate-fadeIn delay-[200ms]">
             {templatesData.map((article, index) => (
               <TemplateArticle key={index} {...article} />
             ))}

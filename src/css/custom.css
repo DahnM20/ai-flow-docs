@@ -106,56 +106,72 @@ h1, h2, h3, h4, .menu__link--active {
   box-shadow: 0 6px 16px rgba(0, 191, 166, 0.35);
 }
 
+.get-started-btn {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.35);
+  padding: 10px 28px;
+  border-radius: 999px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  color: whitesmoke
+}
+
+.get-started-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(59, 130, 246, 0.45);
+  background: linear-gradient(135deg, #4f8efc, #1d4ed8);
+  color: whitesmoke
+}
+
+.doc-pill {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 10px 24px;
+  border-radius: 999px;
+  transition: all 0.3s ease;
+}
+
+.doc-pill:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-1px);
+}
+
 /* Footer Styles */
 .footer {
-  background-color: #2c3e50; /* Dark blue-gray background */
-  color: #ecf0f1; /* Light gray text */
-  padding: 40px 0;
+  @apply bg-white/5 backdrop-blur-lg border-t border-white/10 text-gray-300 py-10 px-4;
 }
 
 /* Footer Title */
 .footer__title {
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 20px;
-  color: inherit; /* Inherits color from .footer for consistency */
+  @apply text-lg font-semibold mb-5 text-white;
 }
 
 /* Footer Items List */
 .footer__items {
-  list-style: none;
-  padding: 0;
-  margin: 0; /* Reset default margin for better control */
+  @apply list-none p-0 m-0;
 }
 
 /* Footer Item */
 .footer__item {
-  margin-bottom: 10px;
-  line-height: 1.8;
+  @apply mb-2 leading-7;
 }
 
 /* Footer Links */
 .footer__link-item {
-  color: #bdc3c7; /* Light gray links */
-  text-decoration: none;
-  transition: color 0.3s ease; /* Added 'ease' for a smoother transition */
-}
-
-.footer__link-item:hover {
-  color: #fff; /* Simplified white color */
+  @apply text-gray-400 no-underline transition-colors duration-300 hover:text-white hover:underline;
 }
 
 /* Footer Bottom Section */
 .footer__bottom {
-  margin-top: 40px;
-  border-top: 1px solid #7f8c8d; /* Gray border */
-  padding-top: 20px;
+  @apply mt-10 border-t border-white/10 pt-5 text-center;
 }
 
 /* Footer Copyright Text */
 .footer__copyright {
-  font-size: 14px;
-  color: #bdc3c7;
+  @apply text-sm text-gray-400;
 }
 
 /* Responsive Styles */

@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Access Various AI Models
 
-## Replicate Node
+### Replicate Node
 
 The Replicate Node serves as a gateway to a multitude of open-source models hosted on Replicate, a platform that enables community members to host and run these models in the cloud.
 
