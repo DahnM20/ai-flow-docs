@@ -9,7 +9,7 @@ const docsLinks = [
   { title: "Open Source VS Pro", url: "/docs/install-guide/ai-flow-cloud/" },
 
   { title: "File Upload Settings", url: "/docs/file-upload/file-upload-s3/" },
-  { title: "Pro Features", url: "/docs/category/-pro-features/" },
+  { title: "Pro Features", url: "/docs/category/pro-features/" },
 ];
 
 const templatesData = [
