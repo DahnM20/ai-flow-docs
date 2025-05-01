@@ -115,7 +115,7 @@ To ensure secure access to your workflow, generate API keys within the API Build
 With your API keys in hand, you can now run your workflow using REST API calls. The API Builder provides code snippets to help you get started. For example, using cURL:
 
 ```bash
-curl https://api.ai-flow.com/v1/flow/<your_flow_id>/run \
+curl https://api.ai-flow.net/v1/flow/<your_flow_id>/run \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer $AI_FLOW_API_KEY" \
 -d '{

@@ -72,7 +72,7 @@ To ensure secure access, API Keys are generated within the API Builder. These ke
 Launching your flow is straightforward with the provided code snippets in the API Builder View. For instance, using cURL, you can initiate your flow as follows:
 
 ```bash
-curl https://api.ai-flow.com/v1/flow/<your_flow_id>/run \
+curl https://api.ai-flow.net/v1/flow/<your_flow_id>/run \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer $AI_FLOW_API_KEY" \
 -d '{
