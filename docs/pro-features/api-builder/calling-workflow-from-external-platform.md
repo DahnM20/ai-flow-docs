@@ -13,7 +13,7 @@ You can trigger your AI-Flow workflows remotely from other platforms or external
 Make a REST request using the following concise example:
 
 ```bash
-curl https://api.ai-flow.com/v1/flow/<your_flow_id>/run \
+curl https://api.ai-flow.net/v1/flow/<your_flow_id>/run \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $AI_FLOW_API_KEY" \
   -d '{"input_field": "your input data"}'
@@ -28,7 +28,7 @@ The API will respond with a `run ID`, which you can later use to check the resul
 Use your `run ID` to retrieve results:
 
 ```bash
-curl https://api.ai-flow.com/v1/flow/<your_flow_id>/run/<run_id> \
+curl https://api.ai-flow.net/v1/flow/<your_flow_id>/run/<run_id> \
   -H "Authorization: Bearer $AI_FLOW_API_KEY"
 ```
 

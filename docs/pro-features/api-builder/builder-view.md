@@ -31,7 +31,7 @@ Before sending a request, please ensure to name each of your input and output fi
 ### Basic Example Using cURL
 
 ```bash
-curl https://api.ai-flow.com/v1/flow/<your_flow_id>/run \
+curl https://api.ai-flow.net/v1/flow/<your_flow_id>/run \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer $AI_FLOW_API_KEY" \
 -d '{

@@ -72,7 +72,7 @@ Pour garantir un accès sécurisé, les clés API sont générées au sein de l'
 Lancer votre flux est simple avec les extraits de code fournis dans la vue API Builder. Par exemple, en utilisant cURL, vous pouvez lancer votre flux comme suit :
 
 ```bash
-curl https://api.ai-flow.com/v1/flow/<your_flow_id>/run \
+curl https://api.ai-flow.net/v1/flow/<your_flow_id>/run \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer $AI_FLOW_API_KEY" \
 -d '{
