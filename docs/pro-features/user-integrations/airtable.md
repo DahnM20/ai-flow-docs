@@ -168,7 +168,3 @@ Provide the collaborator’s **email** or **name**, and enable **Typecast** so A
 The **List Records** node outputs records as an array—ideal for a **Subflow Loop**. You’ll find several ready-made loop templates in the [AI-Flow App](https://app.ai-flow.net/).
 
 ![Loop Template](/img/page-images/airtable-loop.png)
-
----
-
-Let me know if you'd like this cleaned version as a downloadable Markdown file.
