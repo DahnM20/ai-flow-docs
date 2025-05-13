@@ -84,6 +84,7 @@ const config = {
             label: "Launch App",
             position: "right",
             className: "button button--primary navbar__cta-button",
+            rel: "noopener",
           },
           {
             href: "https://github.com/DahnM20/ai-flow-docs",
