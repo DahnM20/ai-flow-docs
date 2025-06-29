@@ -97,14 +97,14 @@ const config = {
           // },
         ],
       },
-      announcementBar: {
-        id: "new-release",
-        content:
-          "🚀 Latest Features: Claude 3.7, Google Gemini Node and Light Theme.",
-        backgroundColor: "#0b1120",
-        textColor: "#f5f5f5",
-        isCloseable: true,
-      },
+      // announcementBar: {
+      //   id: "new-release",
+      //   content:
+      //     "🚀 Latest Features: Claude 3.7, Google Gemini Node and Light Theme.",
+      //   backgroundColor: "#0b1120",
+      //   textColor: "#f5f5f5",
+      //   isCloseable: true,
+      // },
       algolia: {
         // The application ID provided by Algolia
         appId: "VLXX9HY97P",
