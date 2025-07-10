@@ -52,6 +52,10 @@ To illustrate the Subflow Loop Node, we will use a basic example flow. In this f
 
 4. **Connect a List Input**: Connect a list input to the selected fields. You can achieve this using a **Data Splitter** with the `output_as_list` option enabled, or by entering the list directly into the input field.
 
+   - Example with List Node:
+
+     ![Example Flow](/img/page-images/api-builder/subflow-loop-9.png)
+
    - Example with Data Splitter:
 
      ![Example Flow](/img/page-images/api-builder/subflow-loop-4.png)
@@ -79,8 +83,6 @@ To illustrate the Subflow Loop Node, we will use a basic example flow. In this f
 By combining the Subflow Loop Node with tools like the **Data Splitter** or **Regex Extractor**, you can dynamically generate content without being limited to a fixed number of outputs. Previously, workflows required a predefined number of outputs and individual processing nodes.
 
 ![Comparison](/img/page-images/api-builder/subflow-loop-8.png)
-
-While the bottom approach runs nodes in parallel—a feature not yet supported by the Subflow Loop—you now have the flexibility to design your flow as needed. Parallel execution may be supported in the future.
 
 ---
 

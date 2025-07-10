@@ -51,6 +51,15 @@ It's important to note that if you upload a PDF file, the output of the File Upl
 
 ![File Upload Node](/img/blog-images/summarize-doc-post.png)
 
+## Searching Nodes
+
+Launch the Advanced Node Search by clicking the icon on the right side of the node search bar or pressing Ctrl+K (⌘+K on macOS) while working in your Flow. Instantly locate the precise nodes you need to accomplish any task.
+
+<video width="100%" autoplay muted playsinline loop>
+  <source src="/img/page-images/how-to-use-nodes/search-nodes.mp4" type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
+
 ## Opening the Right-Side Pane
 
 ![Right Sidepane](/img/blog-images/sidepane-1.png)
