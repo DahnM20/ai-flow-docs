@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # AI-Flow Cloud
 
 AI-Flow Cloud is the **Pro** hosted version of AI-Flow, designed to eliminate setup headaches so you can focus on building. No need to worry about configurations, updates, or downtime — we handle it all.
