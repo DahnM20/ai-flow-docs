@@ -15,27 +15,19 @@ AI‑Flow Cloud works out of the box, but you can plug in your own API keys when
 | Gemini                                                      | **Google Gemini API key** |
 | Claude                                                      | **Anthropic API key**     |
 
-You can add your keys in the settings menu. In the Secure Store tab.
+Add or manage keys in **Settings → Secure Store**.
 
 ![Secure Store](/img/page-images/secure-store.png)
 
 ### Key storage and security
 
-- Keys are encrypted the moment you submit them.
-- You decide where they live:
-
-  - **Browser‑only** – stored locally in encrypted form.
-  - **Server‑side sync (default)** – encrypted copy on our servers plus local copy, so you don’t have to re‑enter keys on each device.
-
-- Once submited, we **never** decrypt or display your keys in the browser. If you mistype a key, delete it and enter the correct one.
+- **Encrypted end‑to‑end.** Your key is encrypted the moment it reaches our servers and is never written to disk in plaintext.
+- **You choose where it lives.**
+  - **Local‑only** Keeps an encrypted copy in your browser only.
+  - **Sync (default)** Also stores an encrypted copy on our servers so you don’t have to re‑enter it on every device.
+- **Delete any time.** One click wipes all copies.
 
 ### Platform fee when you BYOK
 
-- Standard fee: **5 %** of the vendor’s usage cost. This covers storage, request logging, and compute overhead on our side.
-- Exception for very expensive models: we cap the fee so it never exceeds a sensible credit maximum.
-
-  - Example: Veo3 would cost 22 credits under the 5 % rule; we cap it at **1 credit**.
-
-- We review real‑world usage continuously and adjust caps to keep pricing fair and sustainable.
-
-That’s it—no hidden charges, no marketing spin. Use your own keys, pay the vendor’s rate plus a small, transparent fee for the infrastructure you consume.
+- **Standard:** 5 % of the underlying model cost.
+- **Fair‑use cap:** For ultra‑expensive models, we cap the fee so it never eats your budget (e.g., Veo‑3 max 1 credit per call).
