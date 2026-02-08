@@ -14,6 +14,7 @@ AI‑Flow Cloud works out of the box, but you can plug in your own API keys when
 | DeepSeek                                                    | **DeepSeek API key**      |
 | Gemini                                                      | **Google Gemini API key** |
 | Claude                                                      | **Anthropic API key**     |
+| Grok Video, Grok Image                                      | **XAI API key**           |
 
 Add or manage keys in **Settings → Secure Store**.
 
@@ -26,8 +27,3 @@ Add or manage keys in **Settings → Secure Store**.
   - **Local‑only** Keeps an encrypted copy in your browser only.
   - **Sync (default)** Also stores an encrypted copy on our servers so you don’t have to re‑enter it on every device.
 - **Delete any time.** One click wipes all copies.
-
-### Platform fee when you BYOK
-
-- **Standard:** 5 % of the underlying model cost.
-- **Fair‑use cap:** For ultra‑expensive models, we cap the fee so it never eats your budget (e.g., Veo‑3 max 1 credit per call).
